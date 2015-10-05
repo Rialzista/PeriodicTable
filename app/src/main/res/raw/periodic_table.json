@@ -4,6 +4,7 @@
 			"wiki": "http://en.wikipedia.org/wiki/Period%201%20element",
 			"elements": [
 				{
+                    "marker": "g1",
 					"group": "",
 					"position": 0,
 					"name": "Hydrogen",
@@ -31,6 +32,7 @@
 			"wiki": "http://en.wikipedia.org/wiki/Period%202%20element",
 			"elements": [
 				{
+                    "marker": "g1",
 					"group": "Element Alkali s",
 					"position": 0,
 					"name": "Lithium",
@@ -132,6 +134,7 @@
 			"wiki": "http://en.wikipedia.org/wiki/Period%203%20element",
 			"elements": [
 				{
+                    "marker": "g1",
 					"group": "Element Alkali s",
 					"position": 0,
 					"name": "Sodium",
@@ -241,6 +244,7 @@
 			"wiki": "http://en.wikipedia.org/wiki/Period%204%20element",
 			"elements": [
 				{
+                    "marker": "g1",
 					"group": "Element Alkali s",
 					"position": 0,
 					"name": "Potassium",
@@ -498,6 +502,7 @@
 			"wiki": "http://en.wikipedia.org/wiki/Period%205%20element",
 			"elements": [
 				{
+                    "marker": "g1",
 					"group": "Element Alkali s",
 					"position": 0,
 					"name": "Rubidium",
@@ -772,6 +777,7 @@
 			"wiki": "http://en.wikipedia.org/wiki/Period%206%20element",
 			"elements": [
 				{
+                    "marker": "g1",
 					"group": "Element Alkali s",
 					"position": 0,
 					"name": "Caesium",
@@ -1056,6 +1062,7 @@
 			"wiki": "http://en.wikipedia.org/wiki/Period%207%20element",
 			"elements": [
 				{
+                    "marker": "g1",
 					"group": "Element Alkali s",
 					"position": 0,
 					"name": "Francium",

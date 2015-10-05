@@ -2,7 +2,19 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
-        <!-- Customize your theme here. -->
+
     </style>
+    
+    <color name="group1_text_color">#9A6E7D</color>
+    <color name="group2_text_color">#98817B</color>
+    <color name="group3_text_color">#6F7E93</color>
+    <color name="group4_text_color">#5AA4BF</color>
+    <color name="group5_text_color">#63BEAC</color>
+    <color name="group6_text_color">#7995C4</color>
+    <color name="group7_text_color">#585783</color>
+    <color name="group8_text_color">#9778C8</color>
+    <color name="group9_text_color">#85868A</color>
+    <color name="group10_text_color">#927D82</color>
+
 
 </resources>

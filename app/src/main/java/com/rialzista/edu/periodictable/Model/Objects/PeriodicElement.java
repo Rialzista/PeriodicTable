@@ -4,6 +4,7 @@ import java.util.Locale;
 
 public class PeriodicElement {
 
+    private String marker;
     private String group;
     private Integer position;
     private String name;
@@ -11,6 +12,13 @@ public class PeriodicElement {
     private String small;
     private Double molar;
     private Integer[] electrons;
+
+    public PeriodicElement() {
+        this.marker = "";
+        this.name = "";
+        this.number = "";
+        this.small = "";
+    }
 
     public String getGroup() {
         return group;
@@ -43,5 +51,9 @@ public class PeriodicElement {
 
     public Integer[] getElectrons() {
         return electrons;
+    }
+
+    public String getMarker() {
+        return marker;
     }
 }

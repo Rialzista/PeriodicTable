@@ -45,13 +45,14 @@ public class MainActivityFragment extends Fragment {
         mLayoutManager = new GridLayoutManager(getActivity(), 9, LinearLayoutManager.HORIZONTAL, false);
         this.mRecyclerView.setLayoutManager(mLayoutManager);
 
-        mAdapter = new PeriodicTableAdapter(constructDS());
+        mAdapter = new PeriodicTableAdapter(constructDSRightOrder(), getActivity());
+        this.mRecyclerView.setHasFixedSize(true);
         this.mRecyclerView.setAdapter(mAdapter);
 
         return mRootView;
     }
 
-    private List<PeriodicElement> constructDS() {
+    private List<PeriodicElement> constructDSRightOrder() {
         Gson gson = new Gson();
 
         InputStream ins = getResources()
@@ -64,19 +65,33 @@ public class MainActivityFragment extends Fragment {
         PeriodicTable periodicTable = gson.fromJson(reader, PeriodicTable.class);
 
         List<PeriodicElement> ds = new ArrayList<>();
+        List<PeriodicSection> sections = getSections(periodicTable);
 
-        ds.addAll(getElements(periodicTable.getTable()));
-        ds.addAll(Arrays.asList(periodicTable.getActinoids()));
-        ds.addAll(Arrays.asList(periodicTable.getLanthanoids()));
+        for (int j = 0; j < 18; j++) {
+            PeriodicElement[] elem = new PeriodicElement[9];
+            for (int i = 0; i < elem.length; i++)
+                elem[i] = new PeriodicElement();
+
+            ds.addAll(Arrays.asList(elem));
+        }
+
+        for (int col = 0; col < 9; col++) {
+            for (PeriodicElement elm :
+                    sections.get(col).getElements()) {
+                ds.set(col + (elm.getPosition() * 9), elm);
+            }
+        }
 
         return ds;
     }
 
-    private List<PeriodicElement> getElements(PeriodicSection[] sections) {
-        List<PeriodicElement> resultDS = new ArrayList<>();
-        for (PeriodicSection section : sections)
-            resultDS.addAll(Arrays.asList(section.getElements()));
+    private List<PeriodicSection> getSections(PeriodicTable periodicTable) {
+        List<PeriodicSection> sections = new ArrayList<>();
 
-        return resultDS;
+        sections.addAll(Arrays.asList(periodicTable.getTable()));
+        sections.add(new PeriodicSection(periodicTable.getLanthanoids()));
+        sections.add(new PeriodicSection(periodicTable.getActinoids()));
+
+        return sections;
     }
 }

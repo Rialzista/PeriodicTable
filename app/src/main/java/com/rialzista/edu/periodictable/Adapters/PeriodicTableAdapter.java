@@ -1,5 +1,7 @@
 package com.rialzista.edu.periodictable.Adapters;
 
+import android.content.Context;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,15 +12,15 @@ import com.rialzista.edu.periodictable.R;
 
 import java.util.List;
 
-/**
- * Created by Константин on 02.10.2015.
- */
+
 public class PeriodicTableAdapter extends RecyclerView.Adapter<PeriodicItemViewHolder> {
 
     private List<PeriodicElement> mDataSet;
+    private Context mCtx;
 
-    public PeriodicTableAdapter(List<PeriodicElement> dataSet) {
+    public PeriodicTableAdapter(List<PeriodicElement> dataSet, Context ctx) {
         mDataSet = dataSet;
+        this.mCtx = ctx;
     }
 
     @Override
@@ -30,14 +32,26 @@ public class PeriodicTableAdapter extends RecyclerView.Adapter<PeriodicItemViewH
 
     @Override
     public void onBindViewHolder(PeriodicItemViewHolder holder, int position) {
-        holder.elementName.setText(mDataSet.get(position).getName());
+        PeriodicElement element = mDataSet.get(position);
 
-        if (mDataSet.get(position).getNumber().equals(""))
-            holder.elementNumber.setText(mDataSet.get(position).getSmall());
-        else {
-            holder.elementNumber.setText(mDataSet.get(position).getNumber());
-            holder.elementShortName.setText(mDataSet.get(position).getSmall());
+
+        if (element.getNumber().equals("") && !element.getSmall().equals("")) {
+            holder.elementNumber.setText(element.getSmall());
+            holder.elementName.setText("");
+            holder.elementShortName.setText("");
+        } else if (element.getNumber().equals("") && element.getName().equals("")) {
+            holder.elementName.setText("");
+            holder.elementNumber.setText("");
+            holder.elementShortName.setText("");
         }
+        else {
+            holder.elementName.setText(element.getName());
+            holder.elementNumber.setText(element.getNumber());
+            holder.elementShortName.setText(element.getSmall());
+        }
+
+        if (element.getMarker().equals("g1"))
+            holder.elementShortName.setTextColor(ContextCompat.getColor(this.mCtx, R.color.group1_text_color));
     }
 
     @Override
