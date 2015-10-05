@@ -12,7 +12,6 @@ import com.rialzista.edu.periodictable.R;
 
 import java.util.List;
 
-
 public class PeriodicTableAdapter extends RecyclerView.Adapter<PeriodicItemViewHolder> {
 
     private List<PeriodicElement> mDataSet;
