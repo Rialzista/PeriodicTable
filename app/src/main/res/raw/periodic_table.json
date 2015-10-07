@@ -16,6 +16,7 @@
 					]
 				},
 				{
+                    "marker": "g8",
 					"group": "Element Noble p",
 					"position": 17,
 					"name": "Helium",
@@ -45,6 +46,7 @@
 					]
 				},
 				{
+				    "marker": "g2",
 					"group": "Element Alkaline s",
 					"position": 1,
 					"name": "Beryllium",
@@ -57,6 +59,7 @@
 					]
 				},
 				{
+                    "marker": "g4",
 					"group": "Element Metalloid Boron p",
 					"position": 12,
 					"name": "Boron",
@@ -69,6 +72,7 @@
 					]
 				},
 				{
+                    "marker": "g4",
 					"group": "Element Nonmetal Carbon p",
 					"position": 13,
 					"name": "Carbon",
@@ -81,6 +85,7 @@
 					]
 				},
 				{
+                    "marker": "g6",
 					"group": "Element Nonmetal Pnictogen p",
 					"position": 14,
 					"name": "Nitrogen",
@@ -93,6 +98,7 @@
 					]
 				},
 				{
+                    "marker": "g6",
 					"group": "Element Nonmetal Chalcogen p",
 					"position": 15,
 					"name": "Oxygen",
@@ -105,6 +111,7 @@
 					]
 				},
 				{
+                    "marker": "g7",
 					"group": "Element Halogen p",
 					"position": 16,
 					"name": "Fluorine",
@@ -117,6 +124,7 @@
 					]
 				},
 				{
+                    "marker": "g8",
 					"group": "Element Noble p",
 					"position": 17,
 					"name": "Neon",
@@ -148,6 +156,7 @@
 					]
 				},
 				{
+                    "marker": "g2",
 					"group": "Element Alkaline s",
 					"position": 1,
 					"name": "Magnesium",
@@ -161,6 +170,7 @@
 					]
 				},
 				{
+                    "marker": "g5",
 					"group": "Element Poor Boron p",
 					"position": 12,
 					"name": "Aluminium",
@@ -174,6 +184,7 @@
 					]
 				},
 				{
+                    "marker": "g4",
 					"group": "Element Metalloid Carbon p",
 					"position": 13,
 					"name": "Silicon",
@@ -187,6 +198,7 @@
 					]
 				},
 				{
+                    "marker": "g6",
 					"group": "Element Nonmetal Pnictogen p",
 					"position": 14,
 					"name": "Phosphorus",
@@ -200,6 +212,7 @@
 					]
 				},
 				{
+                    "marker": "g6",
 					"group": "Element Nonmetal Chalcogen p",
 					"position": 15,
 					"name": "Sulfur",
@@ -213,6 +226,7 @@
 					]
 				},
 				{
+                    "marker": "g7",
 					"group": "Element Halogen p",
 					"position": 16,
 					"name": "Chlorine",
@@ -226,6 +240,7 @@
 					]
 				},
 				{
+                    "marker": "g8",
 					"group": "Element Noble p",
 					"position": 17,
 					"name": "Argon",
@@ -259,6 +274,7 @@
 					]
 				},
 				{
+                    "marker": "g2",
 					"group": "Element Alkaline s",
 					"position": 1,
 					"name": "Calcium",
@@ -273,6 +289,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 2,
 					"name": "Scandium",
@@ -287,6 +304,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 3,
 					"name": "Titanium",
@@ -301,6 +319,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 4,
 					"name": "Vanadium",
@@ -315,6 +334,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 5,
 					"name": "Chromium",
@@ -329,6 +349,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 6,
 					"name": "Manganese",
@@ -343,6 +364,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 7,
 					"name": "Iron",
@@ -357,6 +379,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 8,
 					"name": "Cobalt",
@@ -371,6 +394,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 9,
 					"name": "Nickel",
@@ -385,6 +409,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 10,
 					"name": "Copper",
@@ -399,6 +424,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 11,
 					"name": "Zinc",
@@ -413,6 +439,7 @@
 					]
 				},
 				{
+                    "marker": "g5",
 					"group": "Element Poor Boron p",
 					"position": 12,
 					"name": "Gallium",
@@ -427,6 +454,7 @@
 					]
 				},
 				{
+                    "marker": "g4",
 					"group": "Element Metalloid Carbon p",
 					"position": 13,
 					"name": "Germanium",
@@ -441,6 +469,7 @@
 					]
 				},
 				{
+                    "marker": "g4",
 					"group": "Element Metalloid Pnictogen p",
 					"position": 14,
 					"name": "Arsenic",
@@ -455,6 +484,7 @@
 					]
 				},
 				{
+                    "marker": "g6",
 					"group": "Element Nonmetal Chalcogen p",
 					"position": 15,
 					"name": "Selenium",
@@ -469,6 +499,7 @@
 					]
 				},
 				{
+                    "marker": "g7",
 					"group": "Element Halogen p",
 					"position": 16,
 					"name": "Bromine",
@@ -483,6 +514,7 @@
 					]
 				},
 				{
+                    "marker": "g8",
 					"group": "Element Noble p",
 					"position": 17,
 					"name": "Krypton",
@@ -518,6 +550,7 @@
 					]
 				},
 				{
+                    "marker": "g2",
 					"group": "Element Alkaline s",
 					"position": 1,
 					"name": "Strontium",
@@ -533,6 +566,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 2,
 					"name": "Yttrium",
@@ -548,6 +582,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 3,
 					"name": "Zirconium",
@@ -563,6 +598,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 4,
 					"name": "Niobium",
@@ -578,6 +614,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 5,
 					"name": "Molybdenum",
@@ -593,6 +630,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 6,
 					"name": "Technetium",
@@ -608,6 +646,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 7,
 					"name": "Ruthenium",
@@ -623,6 +662,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 8,
 					"name": "Rhodium",
@@ -638,6 +678,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 9,
 					"name": "Palladium",
@@ -652,6 +693,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 10,
 					"name": "Silver",
@@ -667,6 +709,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 11,
 					"name": "Cadmium",
@@ -682,6 +725,7 @@
 					]
 				},
 				{
+                    "marker": "g5",
 					"group": "Element Poor Boron p",
 					"position": 12,
 					"name": "Indium",
@@ -697,6 +741,7 @@
 					]
 				},
 				{
+                    "marker": "g5",
 					"group": "Element Poor Carbon p",
 					"position": 13,
 					"name": "Tin",
@@ -712,6 +757,7 @@
 					]
 				},
 				{
+                    "marker": "g4",
 					"group": "Element Metalloid Pnictogen p",
 					"position": 14,
 					"name": "Antimony",
@@ -727,6 +773,7 @@
 					]
 				},
 				{
+                    "marker": "g4",
 					"group": "Element Metalloid Chalcogen p",
 					"position": 15,
 					"name": "Tellurium",
@@ -742,6 +789,7 @@
 					]
 				},
 				{
+                    "marker": "g7",
 					"group": "Element Halogen p",
 					"position": 16,
 					"name": "Iodine",
@@ -757,6 +805,7 @@
 					]
 				},
 				{
+                    "marker": "g8",
 					"group": "Element Noble p",
 					"position": 17,
 					"name": "Xenon",
@@ -794,6 +843,7 @@
 					]
 				},
 				{
+                    "marker": "g2",
 					"group": "Element Alkaline s",
 					"position": 1,
 					"name": "Barium",
@@ -810,6 +860,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Lanthanoid InnerBorder BlueLeft BlueTop BlueRight",
 					"position": 2,
 					"name": "",
@@ -817,6 +868,7 @@
 					"small": "57-71"
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 3,
 					"name": "Hafnium",
@@ -833,6 +885,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 4,
 					"name": "Tantalum",
@@ -849,6 +902,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 5,
 					"name": "Tungsten",
@@ -865,6 +919,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 6,
 					"name": "Rhenium",
@@ -881,6 +936,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 7,
 					"name": "Osmium",
@@ -897,6 +953,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 8,
 					"name": "Iridium",
@@ -913,6 +970,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 9,
 					"name": "Platinum",
@@ -929,6 +987,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 10,
 					"name": "Gold",
@@ -945,6 +1004,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 11,
 					"name": "Mercury",
@@ -961,6 +1021,7 @@
 					]
 				},
 				{
+                    "marker": "g5",
 					"group": "Element Poor Boron p",
 					"position": 12,
 					"name": "Thallium",
@@ -977,6 +1038,7 @@
 					]
 				},
 				{
+                    "marker": "g5",
 					"group": "Element Poor Carbon p",
 					"position": 13,
 					"name": "Lead",
@@ -993,6 +1055,7 @@
 					]
 				},
 				{
+                    "marker": "g5",
 					"group": "Element Poor Pnictogen p",
 					"position": 14,
 					"name": "Bismuth",
@@ -1009,6 +1072,7 @@
 					]
 				},
 				{
+                    "marker": "g4",
 					"group": "Element Metalloid Chalcogen p",
 					"position": 15,
 					"name": "Polonium",
@@ -1025,6 +1089,7 @@
 					]
 				},
 				{
+                    "marker": "g7",
 					"group": "Element Halogen p",
 					"position": 16,
 					"name": "Astatine",
@@ -1041,6 +1106,7 @@
 					]
 				},
 				{
+                    "marker": "g8",
 					"group": "Element Noble p",
 					"position": 17,
 					"name": "Radon",
@@ -1080,6 +1146,7 @@
 					]
 				},
 				{
+                    "marker": "g2",
 					"group": "Element Alkaline s",
 					"position": 1,
 					"name": "Radium",
@@ -1097,6 +1164,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Actinoid InnerBorder BlueLeft BlueRight",
 					"position": 2,
 					"name": "",
@@ -1104,6 +1172,7 @@
 					"small": "89-103"
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 3,
 					"name": "Rutherfordium",
@@ -1121,6 +1190,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 4,
 					"name": "Dubnium",
@@ -1138,6 +1208,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 5,
 					"name": "Seaborgium",
@@ -1155,6 +1226,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 6,
 					"name": "Bohrium",
@@ -1172,6 +1244,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 7,
 					"name": "Hassium",
@@ -1189,6 +1262,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 8,
 					"name": "Meitnerium",
@@ -1206,6 +1280,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 9,
 					"name": "Darmstadtium",
@@ -1223,6 +1298,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 10,
 					"name": "Roentgenium",
@@ -1240,6 +1316,7 @@
 					]
 				},
 				{
+                    "marker": "g3",
 					"group": "Element Transition d",
 					"position": 11,
 					"name": "Copernicium",
@@ -1257,6 +1334,7 @@
 					]
 				},
 				{
+                    "marker": "g5",
 					"group": "Element Poor Boron p",
 					"position": 12,
 					"name": "Ununtrium",
@@ -1274,6 +1352,7 @@
 					]
 				},
 				{
+                    "marker": "g5",
 					"group": "Element Poor Carbon p",
 					"position": 13,
 					"name": "Flerovium",
@@ -1291,6 +1370,7 @@
 					]
 				},
 				{
+                    "marker": "g5",
 					"group": "Element Poor Pnictogen p",
 					"position": 14,
 					"name": "Ununpentium",
@@ -1308,6 +1388,7 @@
 					]
 				},
 				{
+                    "marker": "g5",
 					"group": "Element Poor Chalcogen p",
 					"position": 15,
 					"name": "Livermorium",
@@ -1325,6 +1406,7 @@
 					]
 				},
 				{
+                    "marker": "g7",
 					"group": "Element Halogen p",
 					"position": 16,
 					"name": "Ununseptium",
@@ -1342,6 +1424,7 @@
 					]
 				},
 				{
+                    "marker": "g8",
 					"group": "Element Noble p",
 					"position": 17,
 					"name": "Ununoctium",
@@ -1363,6 +1446,7 @@
 	],
 	"lanthanoids": [
 		{
+            "marker": "g9",
 			"group": "Element Lanthanoid f",
 			"position": 2,
 			"name": "Lanthanum",
@@ -1379,6 +1463,7 @@
 			]
 		},
 		{
+            "marker": "g9",
 			"group": "Element Lanthanoid f",
 			"position": 3,
 			"name": "Cerium",
@@ -1395,6 +1480,7 @@
 			]
 		},
 		{
+            "marker": "g9",
 			"group": "Element Lanthanoid f",
 			"position": 4,
 			"name": "Praseodymium",
@@ -1411,6 +1497,7 @@
 			]
 		},
 		{
+            "marker": "g9",
 			"group": "Element Lanthanoid f",
 			"position": 5,
 			"name": "Neodymium",
@@ -1427,6 +1514,7 @@
 			]
 		},
 		{
+            "marker": "g9",
 			"group": "Element Lanthanoid f",
 			"position": 6,
 			"name": "Promethium",
@@ -1443,6 +1531,7 @@
 			]
 		},
 		{
+            "marker": "g9",
 			"group": "Element Lanthanoid f",
 			"position": 7,
 			"name": "Samarium",
@@ -1459,6 +1548,7 @@
 			]
 		},
 		{
+            "marker": "g9",
 			"group": "Element Lanthanoid f",
 			"position": 8,
 			"name": "Europium",
@@ -1475,6 +1565,7 @@
 			]
 		},
 		{
+            "marker": "g9",
 			"group": "Element Lanthanoid f",
 			"position": 9,
 			"name": "Gadolinium",
@@ -1491,6 +1582,7 @@
 			]
 		},
 		{
+            "marker": "g9",
 			"group": "Element Lanthanoid f",
 			"position": 10,
 			"name": "Terbium",
@@ -1507,6 +1599,7 @@
 			]
 		},
 		{
+            "marker": "g9",
 			"group": "Element Lanthanoid f",
 			"position": 11,
 			"name": "Dysprosium",
@@ -1523,6 +1616,7 @@
 			]
 		},
 		{
+            "marker": "g9",
 			"group": "Element Lanthanoid f",
 			"position": 12,
 			"name": "Holmium",
@@ -1539,6 +1633,7 @@
 			]
 		},
 		{
+            "marker": "g9",
 			"group": "Element Lanthanoid f",
 			"position": 13,
 			"name": "Erbium",
@@ -1555,6 +1650,7 @@
 			]
 		},
 		{
+            "marker": "g9",
 			"group": "Element Lanthanoid f",
 			"position": 14,
 			"name": "Thulium",
@@ -1571,6 +1667,7 @@
 			]
 		},
 		{
+            "marker": "g9",
 			"group": "Element Lanthanoid f",
 			"position": 15,
 			"name": "Ytterbium",
@@ -1587,6 +1684,7 @@
 			]
 		},
 		{
+            "marker": "g9",
 			"group": "Element Lanthanoid d",
 			"position": 16,
 			"name": "Lutetium",
@@ -1605,6 +1703,7 @@
 	],
 	"actinoids": [
 		{
+            "marker": "g10",
 			"group": "Element Actinoid f",
 			"position": 2,
 			"name": "Actinium",
@@ -1622,6 +1721,7 @@
 			]
 		},
 		{
+            "marker": "g10",
 			"group": "Element Actinoid f",
 			"position": 3,
 			"name": "Thorium",
@@ -1639,6 +1739,7 @@
 			]
 		},
 		{
+            "marker": "g10",
 			"group": "Element Actinoid f",
 			"position": 4,
 			"name": "Protactinium",
@@ -1656,6 +1757,7 @@
 			]
 		},
 		{
+            "marker": "g10",
 			"group": "Element Actinoid f",
 			"position": 5,
 			"name": "Uranium",
@@ -1673,6 +1775,7 @@
 			]
 		},
 		{
+            "marker": "g10",
 			"group": "Element Actinoid f",
 			"position": 6,
 			"name": "Neptunium",
@@ -1690,6 +1793,7 @@
 			]
 		},
 		{
+            "marker": "g10",
 			"group": "Element Actinoid f",
 			"position": 7,
 			"name": "Plutonium",
@@ -1707,6 +1811,7 @@
 			]
 		},
 		{
+            "marker": "g10",
 			"group": "Element Actinoid f",
 			"position": 8,
 			"name": "Americium",
@@ -1724,6 +1829,7 @@
 			]
 		},
 		{
+            "marker": "g10",
 			"group": "Element Actinoid f",
 			"position": 9,
 			"name": "Curium",
@@ -1741,6 +1847,7 @@
 			]
 		},
 		{
+            "marker": "g10",
 			"group": "Element Actinoid f",
 			"position": 10,
 			"name": "Berkelium",
@@ -1758,6 +1865,7 @@
 			]
 		},
 		{
+            "marker": "g10",
 			"group": "Element Actinoid f",
 			"position": 11,
 			"name": "Californium",
@@ -1775,6 +1883,7 @@
 			]
 		},
 		{
+            "marker": "g10",
 			"group": "Element Actinoid f",
 			"position": 12,
 			"name": "Einsteinium",
@@ -1792,6 +1901,7 @@
 			]
 		},
 		{
+            "marker": "g10",
 			"group": "Element Actinoid f",
 			"position": 13,
 			"name": "Fermium",
@@ -1809,6 +1919,7 @@
 			]
 		},
 		{
+            "marker": "g10",
 			"group": "Element Actinoid f",
 			"position": 14,
 			"name": "Mendelevium",
@@ -1826,6 +1937,7 @@
 			]
 		},
 		{
+            "marker": "g10",
 			"group": "Element Actinoid f",
 			"position": 15,
 			"name": "Nobelium",
@@ -1843,6 +1955,7 @@
 			]
 		},
 		{
+            "marker": "g10",
 			"group": "Element Actinoid d",
 			"position": 16,
 			"name": "Lawrencium",

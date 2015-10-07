@@ -2,7 +2,7 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
-
+        <item name="android:typeface">serif</item>
     </style>
     
     <color name="group1_text_color">#9A6E7D</color>
@@ -11,10 +11,24 @@
     <color name="group4_text_color">#5AA4BF</color>
     <color name="group5_text_color">#63BEAC</color>
     <color name="group6_text_color">#7995C4</color>
-    <color name="group7_text_color">#585783</color>
+    <color name="group7_text_color">#7E81C6</color>
     <color name="group8_text_color">#9778C8</color>
     <color name="group9_text_color">#85868A</color>
     <color name="group10_text_color">#927D82</color>
+
+    <color name="group1_bg_color">#34252A</color>
+    <color name="group2_bg_color">#39312F</color>
+    <color name="group3_bg_color">#252C34</color>
+    <color name="group4_bg_color">#203844</color>
+    <color name="group5_bg_color">#213F37</color>
+    <color name="group6_bg_color">#293144</color>
+    <color name="group7_bg_color">#2C2C46</color>
+    <color name="group8_bg_color">#322944</color>
+    <color name="group9_bg_color">#2D2E30</color>
+    <color name="group10_bg_color">#302A2A</color>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 </resources>
