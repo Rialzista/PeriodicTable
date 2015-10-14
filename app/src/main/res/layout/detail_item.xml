@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:foreground="?attr/selectableItemBackground"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:background="#ffffff"
+        android:layout_height="350dp" >
+
+        <TextView
+            android:id="@+id/element_number"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"
+            android:text="6"
+            android:textColor="@color/text_color_highlights"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/element_short_name"
+            android:textColor="@color/text_color_highlights"
+            android:text="Ca"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:textSize="60sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Carbon"
+            android:layout_toRightOf="@+id/element_short_name"
+            android:id="@+id/element_name"
+            android:textColor="@color/text_color_highlights"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="45dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Atomic Weight: 12.011"
+            android:layout_toRightOf="@+id/element_short_name"
+            android:id="@+id/atomic_weight"
+            android:textColor="@color/text_color_highlights"
+            android:layout_below="@+id/element_name"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Electron Config: [He]2s22p2"
+            android:layout_toRightOf="@+id/element_short_name"
+            android:id="@+id/election_config"
+            android:textColor="@color/text_color_highlights"
+            android:layout_below="@+id/atomic_weight"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/pic"
+            android:layout_below="@+id/election_config"
+            android:layout_marginTop="20dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+

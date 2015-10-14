@@ -27,6 +27,9 @@
     <color name="group9_bg_color">#2D2E30</color>
     <color name="group10_bg_color">#302A2A</color>
 
+    <color name="bg_highlights">#FFFFFF</color>
+    <color name="text_color_highlights">#292D36</color>
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 

@@ -1,5 +1,9 @@
 package com.rialzista.edu.periodictable;
 
+import android.content.Intent;
+import android.net.Uri;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
@@ -14,6 +18,7 @@ import com.rialzista.edu.periodictable.Adapters.PeriodicTableAdapter;
 import com.rialzista.edu.periodictable.Model.Objects.PeriodicElement;
 import com.rialzista.edu.periodictable.Model.Objects.PeriodicSection;
 import com.rialzista.edu.periodictable.Model.Objects.PeriodicTable;
+import com.rialzista.edu.periodictable.Model.Objects.Utils;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -46,7 +51,8 @@ public class MainActivityFragment extends Fragment {
         this.mRecyclerView.setLayoutManager(mLayoutManager);
 
         mAdapter = new PeriodicTableAdapter(constructDSRightOrder(), getActivity());
-        this.mRecyclerView.setHasFixedSize(true);
+        mAdapter.setOnItemClickListener(pereodicElementClickListener);
+        //this.mRecyclerView.setHasFixedSize(true);
         this.mRecyclerView.setAdapter(mAdapter);
 
         return mRootView;
@@ -65,7 +71,7 @@ public class MainActivityFragment extends Fragment {
         PeriodicTable periodicTable = gson.fromJson(reader, PeriodicTable.class);
 
         List<PeriodicElement> ds = new ArrayList<>();
-        List<PeriodicSection> sections = getSections(periodicTable);
+        List<PeriodicSection> sections = Utils.getSections(periodicTable, false);
 
         for (int j = 0; j < 18; j++) {
             PeriodicElement[] elem = new PeriodicElement[9];
@@ -85,13 +91,14 @@ public class MainActivityFragment extends Fragment {
         return ds;
     }
 
-    private List<PeriodicSection> getSections(PeriodicTable periodicTable) {
-        List<PeriodicSection> sections = new ArrayList<>();
+    private OnItemClickListener pereodicElementClickListener = new OnItemClickListener() {
 
-        sections.addAll(Arrays.asList(periodicTable.getTable()));
-        sections.add(new PeriodicSection(periodicTable.getLanthanoids()));
-        sections.add(new PeriodicSection(periodicTable.getActinoids()));
-
-        return sections;
-    }
+        @Override
+        public void onClick(View v, int position) {
+            Intent detailIntent = new Intent(getActivity(), DetailActivity.class);
+            ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(getActivity(), v, "cover");
+            detailIntent.putExtra(DetailActivity.SELECTED_ITEM_POSITION, mAdapter.getItem(position).getNumber() -1);
+            ActivityCompat.startActivity(getActivity(), detailIntent, options.toBundle());
+        }
+    };
 }
