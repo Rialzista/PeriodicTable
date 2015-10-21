@@ -28,7 +28,6 @@ public class PeriodicItemViewHolder extends RecyclerView.ViewHolder implements V
         main = (RelativeLayout) itemView;
 
         main.setOnClickListener(this);
-
     }
 
     @Override

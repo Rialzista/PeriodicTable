@@ -3,7 +3,6 @@ package com.rialzista.edu.periodictable.Model.Objects;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import java.io.Serializable;
 import java.util.Locale;
 
 public class PeriodicElement implements Parcelable {

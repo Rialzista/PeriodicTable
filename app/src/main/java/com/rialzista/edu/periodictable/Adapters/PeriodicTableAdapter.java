@@ -3,6 +3,7 @@ package com.rialzista.edu.periodictable.Adapters;
 import android.content.Context;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,6 +21,7 @@ public class PeriodicTableAdapter extends RecyclerView.Adapter<PeriodicItemViewH
     private Context mCtx;
 
     private OnItemClickListener onItemClickListener;
+    private int focusedItem = 0;
 
     public PeriodicTableAdapter(List<PeriodicElement> dataSet, Context ctx) {
         mDataSet = dataSet;
@@ -100,6 +102,45 @@ public class PeriodicTableAdapter extends RecyclerView.Adapter<PeriodicItemViewH
     @Override
     public int getItemCount() {
         return mDataSet.size();
+    }
+
+    @Override
+    public void onAttachedToRecyclerView(final RecyclerView recyclerView) {
+        super.onAttachedToRecyclerView(recyclerView);
+
+        recyclerView.setOnKeyListener(new View.OnKeyListener() {
+
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+                RecyclerView.LayoutManager lm = recyclerView.getLayoutManager();
+
+                // Return false if scrolled to the bounds and allow focus to move off the list
+                if (event.getAction() == KeyEvent.ACTION_DOWN) {
+                    if (keyCode == KeyEvent.KEYCODE_DPAD_DOWN) {
+                        return tryMoveSelection(lm, 1);
+                    } else if (keyCode == KeyEvent.KEYCODE_DPAD_UP) {
+                        return tryMoveSelection(lm, -1);
+                    }
+                }
+
+                return false;
+            }
+        });
+    }
+
+    private boolean tryMoveSelection(RecyclerView.LayoutManager lm, int direction) {
+        int tryFocusItem = focusedItem + direction;
+
+        // If still within valid bounds, move the selection, notify to redraw, and scroll
+        if (tryFocusItem >= 0 && tryFocusItem < getItemCount()) {
+            notifyItemChanged(focusedItem);
+            focusedItem = tryFocusItem;
+            notifyItemChanged(focusedItem);
+            lm.scrollToPosition(focusedItem);
+            return true;
+        }
+
+        return false;
     }
 
     private void decorViewHolder(PeriodicItemViewHolder holder, int textColor, int posColor, int bgColor, boolean clickable) {
