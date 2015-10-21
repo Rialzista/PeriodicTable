@@ -12,6 +12,7 @@
         android:id="@+id/viewpager"
         android:layout_width="300dp"
         android:layout_height="100dp"
+        android:background="@color/tab_color_bg"
         app:matchChildWidth="@+id/pg_cover"
         android:layout_marginBottom="10dp"/>
 
