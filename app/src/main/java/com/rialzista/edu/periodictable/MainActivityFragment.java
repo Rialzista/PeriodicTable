@@ -26,14 +26,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * A placeholder fragment containing a simple view.
- */
 public class MainActivityFragment extends Fragment {
 
-    private View mRootView;
-    private RecyclerView mRecyclerView;
-    private GridLayoutManager mLayoutManager;
     private PeriodicTableAdapter mAdapter;
 
     public MainActivityFragment() {
@@ -42,17 +36,17 @@ public class MainActivityFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        mRootView = inflater.inflate(R.layout.fragment_main, container, false);
+        View mRootView = inflater.inflate(R.layout.fragment_main, container, false);
 
-        mRecyclerView = (RecyclerView) mRootView.findViewById(R.id.recycler_view);
+        RecyclerView mRecyclerView = (RecyclerView) mRootView.findViewById(R.id.recycler_view);
 
-        mLayoutManager = new GridLayoutManager(getActivity(), 9, LinearLayoutManager.HORIZONTAL, false);
-        this.mRecyclerView.setLayoutManager(mLayoutManager);
+        GridLayoutManager mLayoutManager = new GridLayoutManager(getActivity(), 9, LinearLayoutManager.HORIZONTAL, false);
+        mRecyclerView.setLayoutManager(mLayoutManager);
 
         mAdapter = new PeriodicTableAdapter(constructDSRightOrder(), getActivity());
         mAdapter.setOnItemClickListener(pereodicElementClickListener);
         //this.mRecyclerView.setHasFixedSize(true);
-        this.mRecyclerView.setAdapter(mAdapter);
+        mRecyclerView.setAdapter(mAdapter);
 
         return mRootView;
     }

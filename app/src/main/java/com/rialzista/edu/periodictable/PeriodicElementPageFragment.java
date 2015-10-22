@@ -54,7 +54,7 @@ public class PeriodicElementPageFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.item_viewpage, container, false);
+        View rootView = inflater.inflate(R.layout.item_viewpager, container, false);
 
         mElementNumber = (TextView) rootView.findViewById(R.id.element_number);
         mElementShortName = (TextView) rootView.findViewById(R.id.element_short_name);
@@ -71,8 +71,8 @@ public class PeriodicElementPageFragment extends Fragment {
             public void onClick(View v) {
                 int position = mElement.getNumber();
                 mIsViewSelected = true;
-                ((DetailActivity) getActivity()).unselectPrevItem();
-                ((DetailActivity) getActivity()).mViewPager.setCurrentItem(position - 1, true);
+                ((DetailActivity) getActivity()).unSelectPrevItem();
+                ((DetailActivity) getActivity()).topViewPager.setCurrentItem(position - 1, true);
                 ((DetailActivity) getActivity()).updateUI(position - 1);
                 ((DetailActivity) getActivity()).setPrevSelectedItemPosition(position - 1);
                 viewSelected();
@@ -96,8 +96,12 @@ public class PeriodicElementPageFragment extends Fragment {
         }
     }
 
-    public void unselectItem() {
+    public void unSelectItem() {
         mIsViewSelected = false;
+    }
+    public void selectItem() {
+        mIsViewSelected = true;
+        viewSelected();
     }
 
     public void decorData() {
