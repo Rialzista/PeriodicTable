@@ -1,2096 +1,2862 @@
 {
-	"table": [
+  "table": [
+	{
+	  "wiki": "http://en.wikipedia.org/wiki/Period%201%20element",
+	  "elements": [
 		{
-			"wiki": "http://en.wikipedia.org/wiki/Period%201%20element",
-			"elements": [
-				{
-				    "image": "http://images-of-elements.com/hydrogen.jpg",
-                    "marker": "g1",
-					"group": "",
-					"position": 0,
-					"name": "Hydrogen",
-					"number": 1,
-					"small": "H",
-					"molar": 1.00794,
-					"electrons": [
-						1
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/helium.jpg",
-                    "marker": "g8",
-					"group": "Element Noble p",
-					"position": 17,
-					"name": "Helium",
-					"number": 2,
-					"small": "He",
-					"molar": 4.002602,
-					"electrons": [
-						2
-					]
-				}
-			]
+		  "image": "http://images-of-elements.com/hydrogen.jpg",
+		  "marker": "g1",
+		  "group": "",
+		  "position": 0,
+		  "name": "Hydrogen",
+		  "number": 1,
+		  "small": "H",
+		  "molar": 1.00794,
+		  "electrons": [
+			1
+		  ],
+		  "electronConfiguration":"1s<sup>1</sup>",
+		  "meltingPoint":"-259",
+		  "boilingPoint":"-253",
+		  "density":"0.09",
+		  "earthCrust":"0.14",
+		  "discovery":"1776",
+		  "ionizationEnergy":"13.5984"
 		},
 		{
-			"wiki": "http://en.wikipedia.org/wiki/Period%202%20element",
-			"elements": [
-				{
-                    "image": "http://images-of-elements.com/lithium.jpg",
-                    "marker": "g1",
-					"group": "Element Alkali s",
-					"position": 0,
-					"name": "Lithium",
-					"number": 3,
-					"small": "Li",
-					"molar": 6.941,
-					"electrons": [
-						2,
-						1
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/beryllium.jpg",
-				    "marker": "g2",
-					"group": "Element Alkaline s",
-					"position": 1,
-					"name": "Beryllium",
-					"number": 4,
-					"small": "Be",
-					"molar": 9.012182,
-					"electrons": [
-						2,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/boron.jpg",
-                    "marker": "g4",
-					"group": "Element Metalloid Boron p",
-					"position": 12,
-					"name": "Boron",
-					"number": 5,
-					"small": "B",
-					"molar": 10.811,
-					"electrons": [
-						2,
-						3
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/carbon.jpg",
-                    "marker": "g4",
-					"group": "Element Nonmetal Carbon p",
-					"position": 13,
-					"name": "Carbon",
-					"number": 6,
-					"small": "C",
-					"molar": 12.0107,
-					"electrons": [
-						2,
-						4
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/nitrogen.jpg",
-                    "marker": "g6",
-					"group": "Element Nonmetal Pnictogen p",
-					"position": 14,
-					"name": "Nitrogen",
-					"number": 7,
-					"small": "N",
-					"molar": 14.0067,
-					"electrons": [
-						2,
-						5
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/oxygen.jpg",
-                    "marker": "g6",
-					"group": "Element Nonmetal Chalcogen p",
-					"position": 15,
-					"name": "Oxygen",
-					"number": 8,
-					"small": "O",
-					"molar": 15.9994,
-					"electrons": [
-						2,
-						6
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/fluorine.jpg",
-                    "marker": "g7",
-					"group": "Element Halogen p",
-					"position": 16,
-					"name": "Fluorine",
-					"number": 9,
-					"small": "F",
-					"molar": 18.998404,
-					"electrons": [
-						2,
-						7
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/neon.jpg",
-                    "marker": "g8",
-					"group": "Element Noble p",
-					"position": 17,
-					"name": "Neon",
-					"number": 10,
-					"small": "Ne",
-					"molar": 20.1797,
-					"electrons": [
-						2,
-						8
-					]
-				}
-			]
-		},
-		{
-			"wiki": "http://en.wikipedia.org/wiki/Period%203%20element",
-			"elements": [
-				{
-                    "image": "http://images-of-elements.com/sodium.jpg",
-                    "marker": "g1",
-					"group": "Element Alkali s",
-					"position": 0,
-					"name": "Sodium",
-					"number": 11,
-					"small": "Na",
-					"molar": 22.989769,
-					"electrons": [
-						2,
-						8,
-						1
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/magnesium.jpg",
-                    "marker": "g2",
-					"group": "Element Alkaline s",
-					"position": 1,
-					"name": "Magnesium",
-					"number": 12,
-					"small": "Mg",
-					"molar": 24.305,
-					"electrons": [
-						2,
-						8,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/aluminium.jpg",
-                    "marker": "g5",
-					"group": "Element Poor Boron p",
-					"position": 12,
-					"name": "Aluminium",
-					"number": 13,
-					"small": "Al",
-					"molar": 26.981539,
-					"electrons": [
-						2,
-						8,
-						3
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/silicon.jpg",
-                    "marker": "g4",
-					"group": "Element Metalloid Carbon p",
-					"position": 13,
-					"name": "Silicon",
-					"number": 14,
-					"small": "Si",
-					"molar": 28.0855,
-					"electrons": [
-						2,
-						8,
-						4
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/phosphorus.jpg",
-                    "marker": "g6",
-					"group": "Element Nonmetal Pnictogen p",
-					"position": 14,
-					"name": "Phosphorus",
-					"number": 15,
-					"small": "P",
-					"molar": 30.973763,
-					"electrons": [
-						2,
-						8,
-						5
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/sulfur.jpg",
-                    "marker": "g6",
-					"group": "Element Nonmetal Chalcogen p",
-					"position": 15,
-					"name": "Sulfur",
-					"number": 16,
-					"small": "S",
-					"molar": 32.065,
-					"electrons": [
-						2,
-						8,
-						6
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/chlorine.jpg",
-                    "marker": "g7",
-					"group": "Element Halogen p",
-					"position": 16,
-					"name": "Chlorine",
-					"number": 17,
-					"small": "Cl",
-					"molar": 35.453,
-					"electrons": [
-						2,
-						8,
-						7
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/argon.jpg",
-                    "marker": "g8",
-					"group": "Element Noble p",
-					"position": 17,
-					"name": "Argon",
-					"number": 18,
-					"small": "Ar",
-					"molar": 39.948,
-					"electrons": [
-						2,
-						8,
-						8
-					]
-				}
-			]
-		},
-		{
-			"wiki": "http://en.wikipedia.org/wiki/Period%204%20element",
-			"elements": [
-				{
-                    "image": "http://images-of-elements.com/potassium.jpg",
-                    "marker": "g1",
-					"group": "Element Alkali s",
-					"position": 0,
-					"name": "Potassium",
-					"number": 19,
-					"small": "K",
-					"molar": 39.0983,
-					"electrons": [
-						2,
-						8,
-						8,
-						1
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/calcium.jpg",
-                    "marker": "g2",
-					"group": "Element Alkaline s",
-					"position": 1,
-					"name": "Calcium",
-					"number": 20,
-					"small": "Ca",
-					"molar": 40.078,
-					"electrons": [
-						2,
-						8,
-						8,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/scandium.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 2,
-					"name": "Scandium",
-					"number": 21,
-					"small": "Sc",
-					"molar": 44.955914,
-					"electrons": [
-						2,
-						8,
-						9,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/titanium.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 3,
-					"name": "Titanium",
-					"number": 22,
-					"small": "Ti",
-					"molar": 47.867,
-					"electrons": [
-						2,
-						8,
-						10,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/vanadium.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 4,
-					"name": "Vanadium",
-					"number": 23,
-					"small": "V",
-					"molar": 50.9415,
-					"electrons": [
-						2,
-						8,
-						11,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/chromium.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 5,
-					"name": "Chromium",
-					"number": 24,
-					"small": "Cr",
-					"molar": 51.9961,
-					"electrons": [
-						2,
-						8,
-						13,
-						1
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/manganese.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 6,
-					"name": "Manganese",
-					"number": 25,
-					"small": "Mn",
-					"molar": 54.938046,
-					"electrons": [
-						2,
-						8,
-						13,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/iron.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 7,
-					"name": "Iron",
-					"number": 26,
-					"small": "Fe",
-					"molar": 55.845,
-					"electrons": [
-						2,
-						8,
-						14,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/cobalt.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 8,
-					"name": "Cobalt",
-					"number": 27,
-					"small": "Co",
-					"molar": 58.933193,
-					"electrons": [
-						2,
-						8,
-						15,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/nickel.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 9,
-					"name": "Nickel",
-					"number": 28,
-					"small": "Ni",
-					"molar": 58.6934,
-					"electrons": [
-						2,
-						8,
-						16,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/copper.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 10,
-					"name": "Copper",
-					"number": 29,
-					"small": "Cu",
-					"molar": 63.546,
-					"electrons": [
-						2,
-						8,
-						18,
-						1
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/zinc.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 11,
-					"name": "Zinc",
-					"number": 30,
-					"small": "Zn",
-					"molar": 65.38,
-					"electrons": [
-						2,
-						8,
-						18,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/gallium.jpg",
-                    "marker": "g5",
-					"group": "Element Poor Boron p",
-					"position": 12,
-					"name": "Gallium",
-					"number": 31,
-					"small": "Ga",
-					"molar": 69.723,
-					"electrons": [
-						2,
-						8,
-						18,
-						3
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/germanium.jpg",
-                    "marker": "g4",
-					"group": "Element Metalloid Carbon p",
-					"position": 13,
-					"name": "Germanium",
-					"number": 32,
-					"small": "Ge",
-					"molar": 72.63,
-					"electrons": [
-						2,
-						8,
-						18,
-						4
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/arsenic.jpg",
-                    "marker": "g4",
-					"group": "Element Metalloid Pnictogen p",
-					"position": 14,
-					"name": "Arsenic",
-					"number": 33,
-					"small": "As",
-					"molar": 74.9216,
-					"electrons": [
-						2,
-						8,
-						18,
-						5
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/selenium.jpg",
-                    "marker": "g6",
-					"group": "Element Nonmetal Chalcogen p",
-					"position": 15,
-					"name": "Selenium",
-					"number": 34,
-					"small": "Se",
-					"molar": 78.96,
-					"electrons": [
-						2,
-						8,
-						18,
-						6
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/bromine.jpg",
-                    "marker": "g7",
-					"group": "Element Halogen p",
-					"position": 16,
-					"name": "Bromine",
-					"number": 35,
-					"small": "Br",
-					"molar": 79.904,
-					"electrons": [
-						2,
-						8,
-						18,
-						7
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/krypton.jpg",
-                    "marker": "g8",
-					"group": "Element Noble p",
-					"position": 17,
-					"name": "Krypton",
-					"number": 36,
-					"small": "Kr",
-					"molar": 83.798,
-					"electrons": [
-						2,
-						8,
-						18,
-						8
-					]
-				}
-			]
-		},
-		{
-			"wiki": "http://en.wikipedia.org/wiki/Period%205%20element",
-			"elements": [
-				{
-                    "image": "http://images-of-elements.com/rubidium.jpg",
-                    "marker": "g1",
-					"group": "Element Alkali s",
-					"position": 0,
-					"name": "Rubidium",
-					"number": 37,
-					"small": "Rb",
-					"molar": 85.4678,
-					"electrons": [
-						2,
-						8,
-						18,
-						8,
-						1
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/strontium.jpg",
-                    "marker": "g2",
-					"group": "Element Alkaline s",
-					"position": 1,
-					"name": "Strontium",
-					"number": 38,
-					"small": "Sr",
-					"molar": 87.62,
-					"electrons": [
-						2,
-						8,
-						18,
-						8,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/yttrium.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 2,
-					"name": "Yttrium",
-					"number": 39,
-					"small": "Y",
-					"molar": 88.90585,
-					"electrons": [
-						2,
-						8,
-						18,
-						9,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/zirconium.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 3,
-					"name": "Zirconium",
-					"number": 40,
-					"small": "Zr",
-					"molar": 91.224,
-					"electrons": [
-						2,
-						8,
-						18,
-						10,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/niobium.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 4,
-					"name": "Niobium",
-					"number": 41,
-					"small": "Nb",
-					"molar": 92.90638,
-					"electrons": [
-						2,
-						8,
-						18,
-						12,
-						1
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/molybdenum.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 5,
-					"name": "Molybdenum",
-					"number": 42,
-					"small": "Mo",
-					"molar": 95.96,
-					"electrons": [
-						2,
-						8,
-						18,
-						13,
-						1
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/s/technetium.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 6,
-					"name": "Technetium",
-					"number": 43,
-					"small": "Tc",
-					"molar": 98,
-					"electrons": [
-						2,
-						8,
-						18,
-						13,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/ruthenium.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 7,
-					"name": "Ruthenium",
-					"number": 44,
-					"small": "Ru",
-					"molar": 101.07,
-					"electrons": [
-						2,
-						8,
-						18,
-						15,
-						1
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/s/rhodium.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 8,
-					"name": "Rhodium",
-					"number": 45,
-					"small": "Rh",
-					"molar": 102.9055,
-					"electrons": [
-						2,
-						8,
-						18,
-						16,
-						1
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/palladium.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 9,
-					"name": "Palladium",
-					"number": 46,
-					"small": "Pd",
-					"molar": 106.42,
-					"electrons": [
-						2,
-						8,
-						18,
-						18
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/silver.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 10,
-					"name": "Silver",
-					"number": 47,
-					"small": "Ag",
-					"molar": 107.8682,
-					"electrons": [
-						2,
-						8,
-						18,
-						18,
-						1
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/cadmium.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 11,
-					"name": "Cadmium",
-					"number": 48,
-					"small": "Cd",
-					"molar": 112.411,
-					"electrons": [
-						2,
-						8,
-						18,
-						18,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/indium.jpg",
-                    "marker": "g5",
-					"group": "Element Poor Boron p",
-					"position": 12,
-					"name": "Indium",
-					"number": 49,
-					"small": "In",
-					"molar": 114.818,
-					"electrons": [
-						2,
-						8,
-						18,
-						18,
-						3
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/tin.jpg",
-                    "marker": "g5",
-					"group": "Element Poor Carbon p",
-					"position": 13,
-					"name": "Tin",
-					"number": 50,
-					"small": "Sn",
-					"molar": 118.71,
-					"electrons": [
-						2,
-						8,
-						18,
-						18,
-						4
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/antimony.jpg",
-                    "marker": "g4",
-					"group": "Element Metalloid Pnictogen p",
-					"position": 14,
-					"name": "Antimony",
-					"number": 51,
-					"small": "Sb",
-					"molar": 121.76,
-					"electrons": [
-						2,
-						8,
-						18,
-						18,
-						5
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/tellurium.jpg",
-                    "marker": "g4",
-					"group": "Element Metalloid Chalcogen p",
-					"position": 15,
-					"name": "Tellurium",
-					"number": 52,
-					"small": "Te",
-					"molar": 127.6,
-					"electrons": [
-						2,
-						8,
-						18,
-						18,
-						6
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/iodine.jpg",
-                    "marker": "g7",
-					"group": "Element Halogen p",
-					"position": 16,
-					"name": "Iodine",
-					"number": 53,
-					"small": "I",
-					"molar": 126.90447,
-					"electrons": [
-						2,
-						8,
-						18,
-						18,
-						7
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/xenon.jpg",
-                    "marker": "g8",
-					"group": "Element Noble p",
-					"position": 17,
-					"name": "Xenon",
-					"number": 54,
-					"small": "Xe",
-					"molar": 131.293,
-					"electrons": [
-						2,
-						8,
-						18,
-						18,
-						8
-					]
-				}
-			]
-		},
-		{
-			"wiki": "http://en.wikipedia.org/wiki/Period%206%20element",
-			"elements": [
-				{
-                    "image": "http://images-of-elements.com/caesium.jpg",
-                    "marker": "g1",
-					"group": "Element Alkali s",
-					"position": 0,
-					"name": "Caesium",
-					"number": 55,
-					"small": "Cs",
-					"molar": 132.90546,
-					"electrons": [
-						2,
-						8,
-						18,
-						18,
-						8,
-						1
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/barium.jpg",
-                    "marker": "g2",
-					"group": "Element Alkaline s",
-					"position": 1,
-					"name": "Barium",
-					"number": 56,
-					"small": "Ba",
-					"molar": 137.327,
-					"electrons": [
-						2,
-						8,
-						18,
-						18,
-						8,
-						2
-					]
-				},
-				{
-                    "image": "",
-                    "marker": "g3",
-					"group": "Lanthanoid InnerBorder BlueLeft BlueTop BlueRight",
-					"position": 2,
-					"name": "",
-					"number": -1,
-					"small": "57-71"
-				},
-				{
-                    "image": "http://images-of-elements.com/hafnium.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 3,
-					"name": "Hafnium",
-					"number": 72,
-					"small": "Hf",
-					"molar": 178.49,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						10,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/tantalum.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 4,
-					"name": "Tantalum",
-					"number": 73,
-					"small": "Ta",
-					"molar": 180.94788,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						11,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/tungsten.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 5,
-					"name": "Tungsten",
-					"number": 74,
-					"small": "W",
-					"molar": 183.84,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						12,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/rhenium.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 6,
-					"name": "Rhenium",
-					"number": 75,
-					"small": "Re",
-					"molar": 186.207,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						13,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/osmium.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 7,
-					"name": "Osmium",
-					"number": 76,
-					"small": "Os",
-					"molar": 190.23,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						14,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/iridium.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 8,
-					"name": "Iridium",
-					"number": 77,
-					"small": "Ir",
-					"molar": 192.217,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						15,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/platinum.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 9,
-					"name": "Platinum",
-					"number": 78,
-					"small": "Pt",
-					"molar": 195.084,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						17,
-						1
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/gold.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 10,
-					"name": "Gold",
-					"number": 79,
-					"small": "Au",
-					"molar": 196.96657,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						18,
-						1
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/mercury.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 11,
-					"name": "Mercury",
-					"number": 80,
-					"small": "Hg",
-					"molar": 200.59,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						18,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/thallium.jpg",
-                    "marker": "g5",
-					"group": "Element Poor Boron p",
-					"position": 12,
-					"name": "Thallium",
-					"number": 81,
-					"small": "Tl",
-					"molar": 204.3833,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						18,
-						3
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/lead.jpg",
-                    "marker": "g5",
-					"group": "Element Poor Carbon p",
-					"position": 13,
-					"name": "Lead",
-					"number": 82,
-					"small": "Pb",
-					"molar": 207.2,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						18,
-						4
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/bismuth.jpg",
-                    "marker": "g5",
-					"group": "Element Poor Pnictogen p",
-					"position": 14,
-					"name": "Bismuth",
-					"number": 83,
-					"small": "Bi",
-					"molar": 208.9804,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						18,
-						5
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/polonium.jpg",
-                    "marker": "g4",
-					"group": "Element Metalloid Chalcogen p",
-					"position": 15,
-					"name": "Polonium",
-					"number": 84,
-					"small": "Po",
-					"molar": 209,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						18,
-						6
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/astatine.jpg",
-                    "marker": "g7",
-					"group": "Element Halogen p",
-					"position": 16,
-					"name": "Astatine",
-					"number": 85,
-					"small": "At",
-					"molar": 210,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						18,
-						7
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/radon.jpg",
-                    "marker": "g8",
-					"group": "Element Noble p",
-					"position": 17,
-					"name": "Radon",
-					"number": 86,
-					"small": "Rn",
-					"molar": 222,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						18,
-						8
-					]
-				}
-			]
-		},
-		{
-			"wiki": "http://en.wikipedia.org/wiki/Period%207%20element",
-			"elements": [
-				{
-                    "image": "http://images-of-elements.com/francium.jpg",
-                    "marker": "g1",
-					"group": "Element Alkali s",
-					"position": 0,
-					"name": "Francium",
-					"number": 87,
-					"small": "Fr",
-					"molar": 223,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						18,
-						8,
-						1
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/radium.jpg",
-                    "marker": "g2",
-					"group": "Element Alkaline s",
-					"position": 1,
-					"name": "Radium",
-					"number": 88,
-					"small": "Ra",
-					"molar": 226,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						18,
-						8,
-						2
-					]
-				},
-				{
-                    "image": "",
-                    "marker": "g3",
-					"group": "Actinoid InnerBorder BlueLeft BlueRight",
-					"position": 2,
-					"name": "",
-					"number": -1,
-					"small": "89-103"
-				},
-				{
-                    "image": "http://images-of-elements.com/s/rutherfordium.jpg",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 3,
-					"name": "Rutherfordium",
-					"number": 104,
-					"small": "Rf",
-					"molar": 267,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						32,
-						10,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/s/transactinoid.png",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 4,
-					"name": "Dubnium",
-					"number": 105,
-					"small": "Db",
-					"molar": 268,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						32,
-						11,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/s/transactinoid.png",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 5,
-					"name": "Seaborgium",
-					"number": 106,
-					"small": "Sg",
-					"molar": 271,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						32,
-						12,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/s/transactinoid.png",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 6,
-					"name": "Bohrium",
-					"number": 107,
-					"small": "Bh",
-					"molar": 272,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						32,
-						13,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/s/transactinoid.png",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 7,
-					"name": "Hassium",
-					"number": 108,
-					"small": "Hs",
-					"molar": 270,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						32,
-						14,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/s/transactinoid.png",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 8,
-					"name": "Meitnerium",
-					"number": 109,
-					"small": "Mt",
-					"molar": 276,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						32,
-						15,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/s/transactinoid.png",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 9,
-					"name": "Darmstadtium",
-					"number": 110,
-					"small": "Ds",
-					"molar": 281,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						32,
-						17,
-						1
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/s/transactinoid.png",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 10,
-					"name": "Roentgenium",
-					"number": 111,
-					"small": "Rg",
-					"molar": 280,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						32,
-						18,
-						1
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/s/transactinoid.png",
-                    "marker": "g3",
-					"group": "Element Transition d",
-					"position": 11,
-					"name": "Copernicium",
-					"number": 112,
-					"small": "Cn",
-					"molar": 285,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						32,
-						18,
-						2
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/s/transactinoid.png",
-                    "marker": "g5",
-					"group": "Element Poor Boron p",
-					"position": 12,
-					"name": "Ununtrium",
-					"number": 113,
-					"small": "Uut",
-					"molar": 284,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						32,
-						18,
-						3
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/s/transactinoid.png",
-                    "marker": "g5",
-					"group": "Element Poor Carbon p",
-					"position": 13,
-					"name": "Flerovium",
-					"number": 114,
-					"small": "Fl",
-					"molar": 289,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						32,
-						18,
-						4
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/s/transactinoid.png",
-                    "marker": "g5",
-					"group": "Element Poor Pnictogen p",
-					"position": 14,
-					"name": "Ununpentium",
-					"number": 115,
-					"small": "Uup",
-					"molar": 288,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						32,
-						18,
-						5
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/s/transactinoid.png",
-                    "marker": "g5",
-					"group": "Element Poor Chalcogen p",
-					"position": 15,
-					"name": "Livermorium",
-					"number": 116,
-					"small": "Lv",
-					"molar": 293,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						32,
-						18,
-						6
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/s/transactinoid.png",
-                    "marker": "g7",
-					"group": "Element Halogen p",
-					"position": 16,
-					"name": "Ununseptium",
-					"number": 117,
-					"small": "Uus",
-					"molar": 294,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						32,
-						18,
-						7
-					]
-				},
-				{
-                    "image": "http://images-of-elements.com/s/transactinoid.png",
-                    "marker": "g8",
-					"group": "Element Noble p",
-					"position": 17,
-					"name": "Ununoctium",
-					"number": 118,
-					"small": "Uuo",
-					"molar": 294,
-					"electrons": [
-						2,
-						8,
-						18,
-						32,
-						32,
-						18,
-						8
-					]
-				}
-			]
+		  "image": "http://images-of-elements.com/helium.jpg",
+		  "marker": "g8",
+		  "group": "Element Noble p",
+		  "position": 17,
+		  "name": "Helium",
+		  "number": 2,
+		  "small": "He",
+		  "molar": 4.002602,
+		  "electrons": [
+			2
+		  ],
+		  "electronConfiguration":"1s<sup>2</sup>",
+		  "meltingPoint":"-272",
+		  "boilingPoint":"-269",
+		  "density":"0.18",
+		  "earthCrust":"",
+		  "discovery":"1895",
+		  "ionizationEnergy":"24.5874"
 		}
-	],
-	"lanthanoids": [
+	  ]
+	},
+	{
+	  "wiki": "http://en.wikipedia.org/wiki/Period%202%20element",
+	  "elements": [
 		{
-            "image": "http://images-of-elements.com/lanthanum.jpg",
-            "marker": "g9",
-			"group": "Element Lanthanoid f",
-			"position": 2,
-			"name": "Lanthanum",
-			"number": 57,
-			"small": "La",
-			"molar": 138.90547,
-			"electrons": [
-				2,
-				8,
-				18,
-				18,
-				9,
-				2
-			]
+		  "image": "http://images-of-elements.com/lithium.jpg",
+		  "marker": "g1",
+		  "group": "Element Alkali s",
+		  "position": 0,
+		  "name": "Lithium",
+		  "number": 3,
+		  "small": "Li",
+		  "molar": 6.941,
+		  "electronConfiguration":"[He] 2s<sup>1</sup>",
+		  "meltingPoint":"180",
+		  "boilingPoint":"1347",
+		  "density":"0.53",
+		  "earthCrust":"",
+		  "discovery":"1817",
+		  "ionizationEnergy":"5.3917",
+		  "electrons": [
+			2,
+			1
+		  ]
 		},
 		{
-            "image": "http://images-of-elements.com/cerium.jpg",
-            "marker": "g9",
-			"group": "Element Lanthanoid f",
-			"position": 3,
-			"name": "Cerium",
-			"number": 58,
-			"small": "Ce",
-			"molar": 140.116,
-			"electrons": [
-				2,
-				8,
-				18,
-				19,
-				9,
-				2
-			]
+		  "image": "http://images-of-elements.com/beryllium.jpg",
+		  "marker": "g2",
+		  "group": "Element Alkaline s",
+		  "position": 1,
+		  "name": "Beryllium",
+		  "number": 4,
+		  "small": "Be",
+		  "molar": 9.012182,
+		  "electronConfiguration":"[He] 2s<sup>2</sup>",
+		  "meltingPoint":"1278",
+		  "boilingPoint":"2970",
+		  "density":"1.85",
+		  "earthCrust":"",
+		  "discovery":"1797",
+		  "ionizationEnergy":"9.3227",
+		  "electrons": [
+			2,
+			2
+		  ]
 		},
 		{
-            "image": "http://images-of-elements.com/praseodymium.jpg",
-            "marker": "g9",
-			"group": "Element Lanthanoid f",
-			"position": 4,
-			"name": "Praseodymium",
-			"number": 59,
-			"small": "Pr",
-			"molar": 140.90765,
-			"electrons": [
-				2,
-				8,
-				18,
-				21,
-				8,
-				2
-			]
+		  "image": "http://images-of-elements.com/boron.jpg",
+		  "marker": "g4",
+		  "group": "Element Metalloid Boron p",
+		  "position": 12,
+		  "name": "Boron",
+		  "number": 5,
+		  "small": "B",
+		  "molar": 10.811,
+		  "electronConfiguration":"[He] 2s<sup>2</sup> 2p<sup>1</sup>",
+		  "meltingPoint":"2300",
+		  "boilingPoint":"2550",
+		  "density":"2.34",
+		  "earthCrust":"",
+		  "discovery":"1808",
+		  "ionizationEnergy":"8.298",
+		  "electrons": [
+			2,
+			3
+		  ]
 		},
 		{
-            "image": "http://images-of-elements.com/neodymium.jpg",
-            "marker": "g9",
-			"group": "Element Lanthanoid f",
-			"position": 5,
-			"name": "Neodymium",
-			"number": 60,
-			"small": "Nd",
-			"molar": 144.242,
-			"electrons": [
-				2,
-				8,
-				18,
-				22,
-				8,
-				2
-			]
+		  "image": "http://images-of-elements.com/carbon.jpg",
+		  "marker": "g4",
+		  "group": "Element Nonmetal Carbon p",
+		  "position": 13,
+		  "name": "Carbon",
+		  "number": 6,
+		  "small": "C",
+		  "molar": 12.0107,
+		  "electronConfiguration":"[He] 2s<sup>2</sup> 2p<sup>2</sup>",
+		  "meltingPoint":"3500",
+		  "boilingPoint":"4827",
+		  "density":"2.26",
+		  "earthCrust":"0.094",
+		  "discovery":"ancient",
+		  "ionizationEnergy":"11.2603",
+		  "electrons": [
+			2,
+			4
+		  ]
 		},
 		{
-            "image": "http://images-of-elements.com/promethium.jpg",
-            "marker": "g9",
-			"group": "Element Lanthanoid f",
-			"position": 6,
-			"name": "Promethium",
-			"number": 61,
-			"small": "Pm",
-			"molar": 145,
-			"electrons": [
-				2,
-				8,
-				18,
-				23,
-				8,
-				2
-			]
+		  "image": "http://images-of-elements.com/nitrogen.jpg",
+		  "marker": "g6",
+		  "group": "Element Nonmetal Pnictogen p",
+		  "position": 14,
+		  "name": "Nitrogen",
+		  "number": 7,
+		  "small": "N",
+		  "molar": 14.0067,
+		  "electronConfiguration":"[He] 2s<sup>2</sup> 2p<sup>3</sup>",
+		  "meltingPoint":"-210",
+		  "boilingPoint":"-196",
+		  "density":"1.25",
+		  "earthCrust":"",
+		  "discovery":"1772",
+		  "ionizationEnergy":"14.5341",
+		  "electrons": [
+			2,
+			5
+		  ]
 		},
 		{
-            "image": "http://images-of-elements.com/samarium.jpg",
-            "marker": "g9",
-			"group": "Element Lanthanoid f",
-			"position": 7,
-			"name": "Samarium",
-			"number": 62,
-			"small": "Sm",
-			"molar": 150.36,
-			"electrons": [
-				2,
-				8,
-				18,
-				24,
-				8,
-				2
-			]
+		  "image": "http://images-of-elements.com/oxygen.jpg",
+		  "marker": "g6",
+		  "group": "Element Nonmetal Chalcogen p",
+		  "position": 15,
+		  "name": "Oxygen",
+		  "number": 8,
+		  "small": "O",
+		  "molar": 15.9994,
+		  "electronConfiguration":"[He] 2s<sup>2</sup> 2p<sup>4</sup>",
+		  "meltingPoint":"-218",
+		  "boilingPoint":"-183",
+		  "density":"1.43",
+		  "earthCrust":"46.71",
+		  "discovery":"1774",
+		  "ionizationEnergy":"13.6181",
+		  "electrons": [
+			2,
+			6
+		  ]
 		},
 		{
-            "image": "http://images-of-elements.com/europium.jpg",
-            "marker": "g9",
-			"group": "Element Lanthanoid f",
-			"position": 8,
-			"name": "Europium",
-			"number": 63,
-			"small": "Eu",
-			"molar": 151.964,
-			"electrons": [
-				2,
-				8,
-				18,
-				25,
-				8,
-				2
-			]
+		  "image": "http://images-of-elements.com/fluorine.jpg",
+		  "marker": "g7",
+		  "group": "Element Halogen p",
+		  "position": 16,
+		  "name": "Fluorine",
+		  "number": 9,
+		  "small": "F",
+		  "molar": 18.998404,
+		  "electronConfiguration":"[He] 2s<sup>2</sup> 2p<sup>5</sup>",
+		  "meltingPoint":"-220",
+		  "boilingPoint":"-188",
+		  "density":"1.7",
+		  "earthCrust":"0.029",
+		  "discovery":"1886",
+		  "ionizationEnergy":"17.4228",
+		  "electrons": [
+			2,
+			7
+		  ]
 		},
 		{
-            "image": "http://images-of-elements.com/gadolinium.jpg",
-            "marker": "g9",
-			"group": "Element Lanthanoid f",
-			"position": 9,
-			"name": "Gadolinium",
-			"number": 64,
-			"small": "Gd",
-			"molar": 157.25,
-			"electrons": [
-				2,
-				8,
-				18,
-				25,
-				9,
-				2
-			]
-		},
-		{
-            "image": "http://images-of-elements.com/terbium.jpg",
-            "marker": "g9",
-			"group": "Element Lanthanoid f",
-			"position": 10,
-			"name": "Terbium",
-			"number": 65,
-			"small": "Tb",
-			"molar": 158.92535,
-			"electrons": [
-				2,
-				8,
-				18,
-				27,
-				8,
-				2
-			]
-		},
-		{
-            "image": "http://images-of-elements.com/dysprosium.jpg",
-            "marker": "g9",
-			"group": "Element Lanthanoid f",
-			"position": 11,
-			"name": "Dysprosium",
-			"number": 66,
-			"small": "Dy",
-			"molar": 162.5,
-			"electrons": [
-				2,
-				8,
-				18,
-				28,
-				8,
-				2
-			]
-		},
-		{
-            "image": "http://images-of-elements.com/holmium.jpg",
-            "marker": "g9",
-			"group": "Element Lanthanoid f",
-			"position": 12,
-			"name": "Holmium",
-			"number": 67,
-			"small": "Ho",
-			"molar": 164.93031,
-			"electrons": [
-				2,
-				8,
-				18,
-				29,
-				8,
-				2
-			]
-		},
-		{
-            "image": "http://images-of-elements.com/erbium.jpg",
-            "marker": "g9",
-			"group": "Element Lanthanoid f",
-			"position": 13,
-			"name": "Erbium",
-			"number": 68,
-			"small": "Er",
-			"molar": 167.259,
-			"electrons": [
-				2,
-				8,
-				18,
-				30,
-				8,
-				2
-			]
-		},
-		{
-            "image": "http://images-of-elements.com/thulium.jpg",
-            "marker": "g9",
-			"group": "Element Lanthanoid f",
-			"position": 14,
-			"name": "Thulium",
-			"number": 69,
-			"small": "Tm",
-			"molar": 168.9342,
-			"electrons": [
-				2,
-				8,
-				18,
-				31,
-				8,
-				2
-			]
-		},
-		{
-            "image": "http://images-of-elements.com/ytterbium.jpg",
-            "marker": "g9",
-			"group": "Element Lanthanoid f",
-			"position": 15,
-			"name": "Ytterbium",
-			"number": 70,
-			"small": "Yb",
-			"molar": 173.054,
-			"electrons": [
-				2,
-				8,
-				18,
-				32,
-				8,
-				2
-			]
-		},
-		{
-            "image": "http://images-of-elements.com/lutetium.jpg",
-            "marker": "g9",
-			"group": "Element Lanthanoid d",
-			"position": 16,
-			"name": "Lutetium",
-			"number": 71,
-			"small": "Lu",
-			"molar": 174.9668,
-			"electrons": [
-				2,
-				8,
-				18,
-				32,
-				9,
-				2
-			]
+		  "image": "http://images-of-elements.com/neon.jpg",
+		  "marker": "g8",
+		  "group": "Element Noble p",
+		  "position": 17,
+		  "name": "Neon",
+		  "number": 10,
+		  "small": "Ne",
+		  "molar": 20.1797,
+		  "electronConfiguration":"[He] 2s<sup>2</sup> 2p<sup>6</sup>",
+		  "meltingPoint":"-249",
+		  "boilingPoint":"-246",
+		  "density":"0.9",
+		  "earthCrust":"",
+		  "discovery":"1898",
+		  "ionizationEnergy":"21.5645",
+		  "electrons": [
+			2,
+			8
+		  ]
 		}
-	],
-	"actinoids": [
+	  ]
+	},
+	{
+	  "wiki": "http://en.wikipedia.org/wiki/Period%203%20element",
+	  "elements": [
 		{
-            "image": "http://images-of-elements.com/actinium.jpg",
-            "marker": "g10",
-			"group": "Element Actinoid f",
-			"position": 2,
-			"name": "Actinium",
-			"number": 89,
-			"small": "Ac",
-			"molar": 227,
-			"electrons": [
-				2,
-				8,
-				18,
-				32,
-				18,
-				9,
-				2
-			]
+		  "image": "http://images-of-elements.com/sodium.jpg",
+		  "marker": "g1",
+		  "group": "Element Alkali s",
+		  "position": 0,
+		  "name": "Sodium",
+		  "number": 11,
+		  "small": "Na",
+		  "molar": 22.989769,
+		  "electronConfiguration":"[Ne] 3s<sup>1</sup>",
+		  "meltingPoint":"98",
+		  "boilingPoint":"883",
+		  "density":"0.97",
+		  "earthCrust":"2.75",
+		  "discovery":"1807",
+		  "ionizationEnergy":"5.1391",
+		  "electrons": [
+			2,
+			8,
+			1
+		  ]
 		},
 		{
-            "image": "http://images-of-elements.com/s/thorium.jpg",
-            "marker": "g10",
-			"group": "Element Actinoid f",
-			"position": 3,
-			"name": "Thorium",
-			"number": 90,
-			"small": "Th",
-			"molar": 232.03806,
-			"electrons": [
-				2,
-				8,
-				18,
-				32,
-				18,
-				10,
-				2
-			]
+		  "image": "http://images-of-elements.com/magnesium.jpg",
+		  "marker": "g2",
+		  "group": "Element Alkaline s",
+		  "position": 1,
+		  "name": "Magnesium",
+		  "number": 12,
+		  "small": "Mg",
+		  "molar": 24.305,
+		  "electronConfiguration":"[Ne] 3s<sup>2</sup>",
+		  "meltingPoint":"639",
+		  "boilingPoint":"1090",
+		  "density":"1.74",
+		  "earthCrust":"2.08",
+		  "discovery":"1755",
+		  "ionizationEnergy":"7.6462",
+		  "electrons": [
+			2,
+			8,
+			2
+		  ]
 		},
 		{
-            "image": "http://images-of-elements.com/protactinium.jpg",
-            "marker": "g10",
-			"group": "Element Actinoid f",
-			"position": 4,
-			"name": "Protactinium",
-			"number": 91,
-			"small": "Pa",
-			"molar": 231.03587,
-			"electrons": [
-				2,
-				8,
-				18,
-				32,
-				20,
-				9,
-				2
-			]
+		  "image": "http://images-of-elements.com/aluminium.jpg",
+		  "marker": "g5",
+		  "group": "Element Poor Boron p",
+		  "position": 12,
+		  "name": "Aluminium",
+		  "number": 13,
+		  "small": "Al",
+		  "molar": 26.981539,
+		  "electronConfiguration":"[Ne] 3s<sup>2</sup> 3p<sup>1</sup>",
+		  "meltingPoint":"660",
+		  "boilingPoint":"2467",
+		  "density":"2.7",
+		  "earthCrust":"8.07",
+		  "discovery":"1825",
+		  "ionizationEnergy":"5.9858",
+		  "electrons": [
+			2,
+			8,
+			3
+		  ]
 		},
 		{
-            "image": "http://images-of-elements.com/s/uranium.jpg",
-            "marker": "g10",
-			"group": "Element Actinoid f",
-			"position": 5,
-			"name": "Uranium",
-			"number": 92,
-			"small": "U",
-			"molar": 238.02892,
-			"electrons": [
-				2,
-				8,
-				18,
-				32,
-				21,
-				9,
-				2
-			]
+		  "image": "http://images-of-elements.com/silicon.jpg",
+		  "marker": "g4",
+		  "group": "Element Metalloid Carbon p",
+		  "position": 13,
+		  "name": "Silicon",
+		  "number": 14,
+		  "small": "Si",
+		  "molar": 28.0855,
+		  "electronConfiguration":"[Ne] 3s<sup>2</sup> 3p<sup>2</sup>",
+		  "meltingPoint":"1410",
+		  "boilingPoint":"2355",
+		  "density":"2.33",
+		  "earthCrust":"27.69",
+		  "discovery":"1824",
+		  "ionizationEnergy":"8.1517",
+		  "electrons": [
+			2,
+			8,
+			4
+		  ]
 		},
 		{
-            "image": "http://images-of-elements.com/s/neptunium.jpg",
-            "marker": "g10",
-			"group": "Element Actinoid f",
-			"position": 6,
-			"name": "Neptunium",
-			"number": 93,
-			"small": "Np",
-			"molar": 237,
-			"electrons": [
-				2,
-				8,
-				18,
-				32,
-				22,
-				9,
-				2
-			]
+		  "image": "http://images-of-elements.com/phosphorus.jpg",
+		  "marker": "g6",
+		  "group": "Element Nonmetal Pnictogen p",
+		  "position": 14,
+		  "name": "Phosphorus",
+		  "number": 15,
+		  "small": "P",
+		  "molar": 30.973763,
+		  "electronConfiguration":"[Ne] 3s<sup>2</sup> 3p<sup>3</sup>",
+		  "meltingPoint":"44",
+		  "boilingPoint":"280",
+		  "density":"1.82",
+		  "earthCrust":"0.13",
+		  "discovery":"1669",
+		  "ionizationEnergy":"10.4867",
+		  "electrons": [
+			2,
+			8,
+			5
+		  ]
 		},
 		{
-            "image": "http://images-of-elements.com/s/plutonium.jpg",
-            "marker": "g10",
-			"group": "Element Actinoid f",
-			"position": 7,
-			"name": "Plutonium",
-			"number": 94,
-			"small": "Pu",
-			"molar": 244,
-			"electrons": [
-				2,
-				8,
-				18,
-				32,
-				24,
-				8,
-				2
-			]
+		  "image": "http://images-of-elements.com/sulfur.jpg",
+		  "marker": "g6",
+		  "group": "Element Nonmetal Chalcogen p",
+		  "position": 15,
+		  "name": "Sulfur",
+		  "number": 16,
+		  "small": "S",
+		  "molar": 32.065,
+		  "electronConfiguration":"[Ne] 3s<sup>2</sup> 3p<sup>4</sup>",
+		  "meltingPoint":"113",
+		  "boilingPoint":"445",
+		  "density":"2.07",
+		  "earthCrust":"0.052",
+		  "discovery":"ancient",
+		  "ionizationEnergy":"10.36",
+		  "electrons": [
+			2,
+			8,
+			6
+		  ]
 		},
 		{
-            "image": "http://images-of-elements.com/s/americium.jpg",
-            "marker": "g10",
-			"group": "Element Actinoid f",
-			"position": 8,
-			"name": "Americium",
-			"number": 95,
-			"small": "Am",
-			"molar": 243,
-			"electrons": [
-				2,
-				8,
-				18,
-				32,
-				25,
-				8,
-				2
-			]
+		  "image": "http://images-of-elements.com/chlorine.jpg",
+		  "marker": "g7",
+		  "group": "Element Halogen p",
+		  "position": 16,
+		  "name": "Chlorine",
+		  "number": 17,
+		  "small": "Cl",
+		  "molar": 35.453,
+		  "electronConfiguration":"[Ne] 3s<sup>2</sup> 3p<sup>5</sup>",
+		  "meltingPoint":"-101",
+		  "boilingPoint":"-35",
+		  "density":"3.21",
+		  "earthCrust":"0.045",
+		  "discovery":"1774",
+		  "ionizationEnergy":"12.9676",
+		  "electrons": [
+			2,
+			8,
+			7
+		  ]
 		},
 		{
-            "image": "http://images-of-elements.com/curium.jpg",
-            "marker": "g10",
-			"group": "Element Actinoid f",
-			"position": 9,
-			"name": "Curium",
-			"number": 96,
-			"small": "Cm",
-			"molar": 247,
-			"electrons": [
-				2,
-				8,
-				18,
-				32,
-				25,
-				9,
-				2
-			]
-		},
-		{
-            "image": "http://images-of-elements.com/berkelium.jpg",
-            "marker": "g10",
-			"group": "Element Actinoid f",
-			"position": 10,
-			"name": "Berkelium",
-			"number": 97,
-			"small": "Bk",
-			"molar": 247,
-			"electrons": [
-				2,
-				8,
-				18,
-				32,
-				27,
-				8,
-				2
-			]
-		},
-		{
-            "image": "http://images-of-elements.com/californium.jpg",
-            "marker": "g10",
-			"group": "Element Actinoid f",
-			"position": 11,
-			"name": "Californium",
-			"number": 98,
-			"small": "Cf",
-			"molar": 251,
-			"electrons": [
-				2,
-				8,
-				18,
-				32,
-				28,
-				8,
-				2
-			]
-		},
-		{
-            "image": "http://images-of-elements.com/s/einsteinium.jpg",
-            "marker": "g10",
-			"group": "Element Actinoid f",
-			"position": 12,
-			"name": "Einsteinium",
-			"number": 99,
-			"small": "Es",
-			"molar": 252,
-			"electrons": [
-				2,
-				8,
-				18,
-				32,
-				29,
-				8,
-				2
-			]
-		},
-		{
-            "image": "http://images-of-elements.com/s/fermium.jpg",
-            "marker": "g10",
-			"group": "Element Actinoid f",
-			"position": 13,
-			"name": "Fermium",
-			"number": 100,
-			"small": "Fm",
-			"molar": 257,
-			"electrons": [
-				2,
-				8,
-				18,
-				32,
-				30,
-				8,
-				2
-			]
-		},
-		{
-            "image": "http://images-of-elements.com/s/mendelevium.jpg",
-            "marker": "g10",
-			"group": "Element Actinoid f",
-			"position": 14,
-			"name": "Mendelevium",
-			"number": 101,
-			"small": "Md",
-			"molar": 258,
-			"electrons": [
-				2,
-				8,
-				18,
-				32,
-				31,
-				8,
-				2
-			]
-		},
-		{
-            "image": "http://images-of-elements.com/nobelium.jpg",
-            "marker": "g10",
-			"group": "Element Actinoid f",
-			"position": 15,
-			"name": "Nobelium",
-			"number": 102,
-			"small": "No",
-			"molar": 259,
-			"electrons": [
-				2,
-				8,
-				18,
-				32,
-				32,
-				8,
-				2
-			]
-		},
-		{
-            "image": "http://images-of-elements.com/lawrencium.jpg",
-            "marker": "g10",
-			"group": "Element Actinoid d",
-			"position": 16,
-			"name": "Lawrencium",
-			"number": 103,
-			"small": "Lr",
-			"molar": 262,
-			"electrons": [
-				2,
-				8,
-				18,
-				32,
-				32,
-				8,
-				3
-			]
+		  "image": "http://images-of-elements.com/argon.jpg",
+		  "marker": "g8",
+		  "group": "Element Noble p",
+		  "position": 17,
+		  "name": "Argon",
+		  "number": 18,
+		  "small": "Ar",
+		  "molar": 39.948,
+		  "electronConfiguration":"[Ne] 3s<sup>2</sup> 3p<sup>6</sup>",
+		  "meltingPoint":"-189",
+		  "boilingPoint":"-186",
+		  "density":"1.78",
+		  "earthCrust":"",
+		  "discovery":"1894",
+		  "ionizationEnergy":"15.7596",
+		  "electrons": [
+			2,
+			8,
+			8
+		  ]
 		}
-	]
+	  ]
+	},
+	{
+	  "wiki": "http://en.wikipedia.org/wiki/Period%204%20element",
+	  "elements": [
+		{
+		  "image": "http://images-of-elements.com/potassium.jpg",
+		  "marker": "g1",
+		  "group": "Element Alkali s",
+		  "position": 0,
+		  "name": "Potassium",
+		  "number": 19,
+		  "small": "K",
+		  "molar": 39.0983,
+		  "electronConfiguration":"[Ar] 4s<sup>1</sup>",
+		  "meltingPoint":"64",
+		  "boilingPoint":"774",
+		  "density":"0.86",
+		  "earthCrust":"2.58",
+		  "discovery":"1807",
+		  "ionizationEnergy":"4.3407",
+		  "electrons": [
+			2,
+			8,
+			8,
+			1
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/calcium.jpg",
+		  "marker": "g2",
+		  "group": "Element Alkaline s",
+		  "position": 1,
+		  "name": "Calcium",
+		  "number": 20,
+		  "small": "Ca",
+		  "molar": 40.078,
+		  "electronConfiguration":"[Ar] 4s<sup>2</sup>",
+		  "meltingPoint":"839",
+		  "boilingPoint":"1484",
+		  "density":"1.55",
+		  "earthCrust":"3.65",
+		  "discovery":"1808",
+		  "ionizationEnergy":"6.1132",
+		  "electrons": [
+			2,
+			8,
+			8,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/scandium.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 2,
+		  "name": "Scandium",
+		  "number": 21,
+		  "small": "Sc",
+		  "molar": 44.955914,
+		  "electronConfiguration":"[Ar] 3d<sup>1</sup> 4s<sup>2</sup>",
+		  "meltingPoint":"1539",
+		  "boilingPoint":"2832",
+		  "density":"2.99",
+		  "earthCrust":"",
+		  "discovery":"1879",
+		  "ionizationEnergy":"6.5615",
+		  "electrons": [
+			2,
+			8,
+			9,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/titanium.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 3,
+		  "name": "Titanium",
+		  "number": 22,
+		  "small": "Ti",
+		  "molar": 47.867,
+		  "electronConfiguration":"[Ar] 3d<sup>2</sup> 4s<sup>2</sup>",
+		  "meltingPoint":"1660",
+		  "boilingPoint":"3287",
+		  "density":"4.54",
+		  "earthCrust":"0.62",
+		  "discovery":"1791",
+		  "ionizationEnergy":"6.8281",
+		  "electrons": [
+			2,
+			8,
+			10,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/vanadium.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 4,
+		  "name": "Vanadium",
+		  "number": 23,
+		  "small": "V",
+		  "molar": 50.9415,
+		  "electronConfiguration":"[Ar] 3d<sup>3</sup> 4s<sup>2</sup>",
+		  "meltingPoint":"1890",
+		  "boilingPoint":"3380",
+		  "density":"6.11",
+		  "earthCrust":"",
+		  "discovery":"1830",
+		  "ionizationEnergy":"6.7462",
+		  "electrons": [
+			2,
+			8,
+			11,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/chromium.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 5,
+		  "name": "Chromium",
+		  "number": 24,
+		  "small": "Cr",
+		  "molar": 51.9961,
+		  "electronConfiguration":"[Ar] 3d<sup>5</sup> 4s<sup>1</sup>",
+		  "meltingPoint":"1857",
+		  "boilingPoint":"2672",
+		  "density":"7.19",
+		  "earthCrust":"0.035",
+		  "discovery":"1797",
+		  "ionizationEnergy":"6.7665",
+		  "electrons": [
+			2,
+			8,
+			13,
+			1
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/manganese.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 6,
+		  "name": "Manganese",
+		  "number": 25,
+		  "small": "Mn",
+		  "molar": 54.938046,
+		  "electronConfiguration":"[Ar] 3d<sup>5</sup> 4s<sup>2</sup>",
+		  "meltingPoint":"1245",
+		  "boilingPoint":"1962",
+		  "density":"7.43",
+		  "earthCrust":"0.09",
+		  "discovery":"1774",
+		  "ionizationEnergy":"7.434",
+		  "electrons": [
+			2,
+			8,
+			13,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/iron.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 7,
+		  "name": "Iron",
+		  "number": 26,
+		  "small": "Fe",
+		  "molar": 55.845,
+		  "electronConfiguration":"[Ar] 3d<sup>6</sup> 4s<sup>2</sup>",
+		  "meltingPoint":"1535",
+		  "boilingPoint":"2750",
+		  "density":"7.87",
+		  "earthCrust":"5.05",
+		  "discovery":"ancient",
+		  "ionizationEnergy":"7.9024",
+		  "electrons": [
+			2,
+			8,
+			14,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/cobalt.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 8,
+		  "name": "Cobalt",
+		  "number": 27,
+		  "small": "Co",
+		  "molar": 58.933193,
+		  "electronConfiguration":"[Ar] 3d<sup>7</sup> 4s<sup>2</sup>",
+		  "meltingPoint":"1495",
+		  "boilingPoint":"2870",
+		  "density":"8.9",
+		  "earthCrust":"",
+		  "discovery":"1735",
+		  "ionizationEnergy":"7.881",
+		  "electrons": [
+			2,
+			8,
+			15,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/nickel.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 9,
+		  "name": "Nickel",
+		  "number": 28,
+		  "small": "Ni",
+		  "molar": 58.6934,
+		  "electronConfiguration":"[Ar] 3d<sup>8</sup> 4s<sup>2</sup>",
+		  "meltingPoint":"1453",
+		  "boilingPoint":"2732",
+		  "density":"8.9",
+		  "earthCrust":"0.019",
+		  "discovery":"1751",
+		  "ionizationEnergy":"7.6398",
+		  "electrons": [
+			2,
+			8,
+			16,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/copper.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 10,
+		  "name": "Copper",
+		  "number": 29,
+		  "small": "Cu",
+		  "molar": 63.546,
+		  "electronConfiguration":"[Ar] 3d<sup>10</sup> 4s<sup>1</sup>",
+		  "meltingPoint":"1083",
+		  "boilingPoint":"2567",
+		  "density":"8.96",
+		  "earthCrust":"",
+		  "discovery":"ancient",
+		  "ionizationEnergy":"7.7264",
+		  "electrons": [
+			2,
+			8,
+			18,
+			1
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/zinc.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 11,
+		  "name": "Zinc",
+		  "number": 30,
+		  "small": "Zn",
+		  "molar": 65.38,
+		  "electronConfiguration":"[Ar] 3d<sup>10</sup> 4s<sup>2</sup>",
+		  "meltingPoint":"420",
+		  "boilingPoint":"907",
+		  "density":"7.13",
+		  "earthCrust":"",
+		  "discovery":"ancient",
+		  "ionizationEnergy":"9.3942",
+		  "electrons": [
+			2,
+			8,
+			18,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/gallium.jpg",
+		  "marker": "g5",
+		  "group": "Element Poor Boron p",
+		  "position": 12,
+		  "name": "Gallium",
+		  "number": 31,
+		  "small": "Ga",
+		  "molar": 69.723,
+		  "electronConfiguration":"[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>1</sup>",
+		  "meltingPoint":"30",
+		  "boilingPoint":"2403",
+		  "density":"5.91",
+		  "earthCrust":"",
+		  "discovery":"1875",
+		  "ionizationEnergy":"5.9993",
+		  "electrons": [
+			2,
+			8,
+			18,
+			3
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/germanium.jpg",
+		  "marker": "g4",
+		  "group": "Element Metalloid Carbon p",
+		  "position": 13,
+		  "name": "Germanium",
+		  "number": 32,
+		  "small": "Ge",
+		  "molar": 72.63,
+		  "electronConfiguration":"[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>2</sup>",
+		  "meltingPoint":"937",
+		  "boilingPoint":"2830",
+		  "density":"5.32",
+		  "earthCrust":"",
+		  "discovery":"1886",
+		  "ionizationEnergy":"7.8994",
+		  "electrons": [
+			2,
+			8,
+			18,
+			4
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/arsenic.jpg",
+		  "marker": "g4",
+		  "group": "Element Metalloid Pnictogen p",
+		  "position": 14,
+		  "name": "Arsenic",
+		  "number": 33,
+		  "small": "As",
+		  "molar": 74.9216,
+		  "electronConfiguration":"[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>3</sup>",
+		  "meltingPoint":"81",
+		  "boilingPoint":"613",
+		  "density":"5.72",
+		  "earthCrust":"",
+		  "discovery":"ancient",
+		  "ionizationEnergy":"9.7886",
+		  "electrons": [
+			2,
+			8,
+			18,
+			5
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/selenium.jpg",
+		  "marker": "g6",
+		  "group": "Element Nonmetal Chalcogen p",
+		  "position": 15,
+		  "name": "Selenium",
+		  "number": 34,
+		  "small": "Se",
+		  "molar": 78.96,
+		  "electronConfiguration":"[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>4</sup>",
+		  "meltingPoint":"217",
+		  "boilingPoint":"685",
+		  "density":"4.79",
+		  "earthCrust":"",
+		  "discovery":"1817",
+		  "ionizationEnergy":"9.7524",
+		  "electrons": [
+			2,
+			8,
+			18,
+			6
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/bromine.jpg",
+		  "marker": "g7",
+		  "group": "Element Halogen p",
+		  "position": 16,
+		  "name": "Bromine",
+		  "number": 35,
+		  "small": "Br",
+		  "molar": 79.904,
+		  "electronConfiguration":"[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>5</sup>",
+		  "meltingPoint":"-7",
+		  "boilingPoint":"59",
+		  "density":"3.12",
+		  "earthCrust":"",
+		  "discovery":"1826",
+		  "ionizationEnergy":"11.8138",
+		  "electrons": [
+			2,
+			8,
+			18,
+			7
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/krypton.jpg",
+		  "marker": "g8",
+		  "group": "Element Noble p",
+		  "position": 17,
+		  "name": "Krypton",
+		  "number": 36,
+		  "small": "Kr",
+		  "molar": 83.798,
+		  "electronConfiguration":"[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>6</sup>",
+		  "meltingPoint":"-157",
+		  "boilingPoint":"-153",
+		  "density":"3.75",
+		  "earthCrust":"",
+		  "discovery":"1898",
+		  "ionizationEnergy":"13.9996",
+		  "electrons": [
+			2,
+			8,
+			18,
+			8
+		  ]
+		}
+	  ]
+	},
+	{
+	  "wiki": "http://en.wikipedia.org/wiki/Period%205%20element",
+	  "elements": [
+		{
+		  "image": "http://images-of-elements.com/rubidium.jpg",
+		  "marker": "g1",
+		  "group": "Element Alkali s",
+		  "position": 0,
+		  "name": "Rubidium",
+		  "number": 37,
+		  "small": "Rb",
+		  "molar": 85.4678,
+		  "electronConfiguration":"[Kr] 5s<sup>1</sup>",
+		  "meltingPoint":"39",
+		  "boilingPoint":"688",
+		  "density":"1.63",
+		  "earthCrust":"",
+		  "discovery":"1861",
+		  "ionizationEnergy":"4.1771",
+		  "electrons": [
+			2,
+			8,
+			18,
+			8,
+			1
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/strontium.jpg",
+		  "marker": "g2",
+		  "group": "Element Alkaline s",
+		  "position": 1,
+		  "name": "Strontium",
+		  "number": 38,
+		  "small": "Sr",
+		  "molar": 87.62,
+		  "electronConfiguration":"[Kr] 5s<sup>2</sup>",
+		  "meltingPoint":"769",
+		  "boilingPoint":"1384",
+		  "density":"2.54",
+		  "earthCrust":"",
+		  "discovery":"1790",
+		  "ionizationEnergy":"5.6949",
+		  "electrons": [
+			2,
+			8,
+			18,
+			8,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/yttrium.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 2,
+		  "name": "Yttrium",
+		  "number": 39,
+		  "small": "Y",
+		  "molar": 88.90585,
+		  "electronConfiguration":"[Kr] 4d<sup>1</sup> 5s<sup>2</sup>",
+		  "meltingPoint":"1523",
+		  "boilingPoint":"3337",
+		  "density":"4.47",
+		  "earthCrust":"",
+		  "discovery":"1794",
+		  "ionizationEnergy":"6.2173",
+		  "electrons": [
+			2,
+			8,
+			18,
+			9,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/zirconium.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 3,
+		  "name": "Zirconium",
+		  "number": 40,
+		  "small": "Zr",
+		  "molar": 91.224,
+		  "electronConfiguration":"[Kr] 4d<sup>2<sup> 5s<sup>2<sup>",
+		  "meltingPoint":"1852",
+		  "boilingPoint":"4377",
+		  "density":"6.51",
+		  "earthCrust":"0.025",
+		  "discovery":"1789",
+		  "ionizationEnergy":"6.6339",
+		  "electrons": [
+			2,
+			8,
+			18,
+			10,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/niobium.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 4,
+		  "name": "Niobium",
+		  "number": 41,
+		  "small": "Nb",
+		  "molar": 92.90638,
+		  "electronConfiguration":"[Kr] 4d<sup>4</sup> 5s<sup>1</sup>",
+		  "meltingPoint":"2468",
+		  "boilingPoint":"4927",
+		  "density":"8.57",
+		  "earthCrust":"",
+		  "discovery":"1801",
+		  "ionizationEnergy":"6.7589",
+		  "electrons": [
+			2,
+			8,
+			18,
+			12,
+			1
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/molybdenum.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 5,
+		  "name": "Molybdenum",
+		  "number": 42,
+		  "small": "Mo",
+		  "molar": 95.96,
+		  "electronConfiguration":"[Kr] 4d<sup>5</sup> 5s<sup>1</sup>",
+		  "meltingPoint":"2617",
+		  "boilingPoint":"4612",
+		  "density":"10.22",
+		  "earthCrust":"",
+		  "discovery":"1781",
+		  "ionizationEnergy":"7.0924",
+		  "electrons": [
+			2,
+			8,
+			18,
+			13,
+			1
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/s/technetium.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 6,
+		  "name": "Technetium",
+		  "number": 43,
+		  "small": "Tc",
+		  "molar": 98,
+		  "electronConfiguration":"[Kr] 4d<sup>5</sup> 5s<sup>2</sup>",
+		  "meltingPoint":"2200",
+		  "boilingPoint":"4877",
+		  "density":"11.5",
+		  "earthCrust":"",
+		  "discovery":"1937",
+		  "ionizationEnergy":"7.28",
+		  "electrons": [
+			2,
+			8,
+			18,
+			13,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/ruthenium.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 7,
+		  "name": "Ruthenium",
+		  "number": 44,
+		  "small": "Ru",
+		  "molar": 101.07,
+		  "electronConfiguration":"[Kr] 4d<sup>7</sup> 5s<sup>1</sup>",
+		  "meltingPoint":"2250",
+		  "boilingPoint":"3900",
+		  "density":"12.37",
+		  "earthCrust":"",
+		  "discovery":"1844",
+		  "ionizationEnergy":"7.3605",
+		  "electrons": [
+			2,
+			8,
+			18,
+			15,
+			1
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/s/rhodium.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 8,
+		  "name": "Rhodium",
+		  "number": 45,
+		  "small": "Rh",
+		  "molar": 102.9055,
+		  "electronConfiguration":"[Kr] 4d<sup>8</sup> 5s<sup>1</sup>",
+		  "meltingPoint":"1966",
+		  "boilingPoint":"3727",
+		  "density":"12.41",
+		  "earthCrust":"",
+		  "discovery":"1803",
+		  "ionizationEnergy":"7.4589",
+		  "electrons": [
+			2,
+			8,
+			18,
+			16,
+			1
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/palladium.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 9,
+		  "name": "Palladium",
+		  "number": 46,
+		  "small": "Pd",
+		  "molar": 106.42,
+		  "electronConfiguration":"[Kr] 4d<sup>10</sup>",
+		  "meltingPoint":"1552",
+		  "boilingPoint":"2927",
+		  "density":"12.02",
+		  "earthCrust":"",
+		  "discovery":"1803",
+		  "ionizationEnergy":"8.3369",
+		  "electrons": [
+			2,
+			8,
+			18,
+			18
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/silver.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 10,
+		  "name": "Silver",
+		  "number": 47,
+		  "small": "Ag",
+		  "molar": 107.8682,
+		  "electronConfiguration":"[Kr] 4d<sup>10</sup> 5s<sup>1</sup>",
+		  "meltingPoint":"962",
+		  "boilingPoint":"2212",
+		  "density":"10.5",
+		  "earthCrust":"",
+		  "discovery":"ancient",
+		  "ionizationEnergy":"7.5762",
+		  "electrons": [
+			2,
+			8,
+			18,
+			18,
+			1
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/cadmium.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 11,
+		  "name": "Cadmium",
+		  "number": 48,
+		  "small": "Cd",
+		  "molar": 112.411,
+		  "electronConfiguration":"[Kr] 4d<sup>10</sup> 5s<sup>2</sup>",
+		  "meltingPoint":"321",
+		  "boilingPoint":"765",
+		  "density":"8.65",
+		  "earthCrust":"",
+		  "discovery":"1817",
+		  "ionizationEnergy":"8.9938",
+		  "electrons": [
+			2,
+			8,
+			18,
+			18,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/indium.jpg",
+		  "marker": "g5",
+		  "group": "Element Poor Boron p",
+		  "position": 12,
+		  "name": "Indium",
+		  "number": 49,
+		  "small": "In",
+		  "molar": 114.818,
+		  "electronConfiguration":"[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>1</sup>",
+		  "meltingPoint":"157",
+		  "boilingPoint":"2000",
+		  "density":"7.31",
+		  "earthCrust":"",
+		  "discovery":"1863",
+		  "ionizationEnergy":"5.7864",
+		  "electrons": [
+			2,
+			8,
+			18,
+			18,
+			3
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/tin.jpg",
+		  "marker": "g5",
+		  "group": "Element Poor Carbon p",
+		  "position": 13,
+		  "name": "Tin",
+		  "number": 50,
+		  "small": "Sn",
+		  "molar": 118.71,
+		  "electronConfiguration":"[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>2</sup>",
+		  "meltingPoint":"232",
+		  "boilingPoint":"2270",
+		  "density":"7.31",
+		  "earthCrust":"",
+		  "discovery":"ancient",
+		  "ionizationEnergy":"7.3439",
+		  "electrons": [
+			2,
+			8,
+			18,
+			18,
+			4
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/antimony.jpg",
+		  "marker": "g4",
+		  "group": "Element Metalloid Pnictogen p",
+		  "position": 14,
+		  "name": "Antimony",
+		  "number": 51,
+		  "small": "Sb",
+		  "molar": 121.76,
+		  "electronConfiguration":"[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>3</sup>",
+		  "meltingPoint":"630",
+		  "boilingPoint":"1750",
+		  "density":"6.68",
+		  "earthCrust":"",
+		  "discovery":"ancient",
+		  "ionizationEnergy":"8.6084",
+		  "electrons": [
+			2,
+			8,
+			18,
+			18,
+			5
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/tellurium.jpg",
+		  "marker": "g4",
+		  "group": "Element Metalloid Chalcogen p",
+		  "position": 15,
+		  "name": "Tellurium",
+		  "number": 52,
+		  "small": "Te",
+		  "molar": 127.6,
+		  "electronConfiguration":"[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>4</sup>",
+		  "meltingPoint":"449",
+		  "boilingPoint":"990",
+		  "density":"6.24",
+		  "earthCrust":"",
+		  "discovery":"1783",
+		  "ionizationEnergy":"9.0096",
+		  "electrons": [
+			2,
+			8,
+			18,
+			18,
+			6
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/iodine.jpg",
+		  "marker": "g7",
+		  "group": "Element Halogen p",
+		  "position": 16,
+		  "name": "Iodine",
+		  "number": 53,
+		  "small": "I",
+		  "molar": 126.90447,
+		  "electronConfiguration":"[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>5</sup>",
+		  "meltingPoint":"114",
+		  "boilingPoint":"184",
+		  "density":"4.93",
+		  "earthCrust":"",
+		  "discovery":"1811",
+		  "ionizationEnergy":"10.4513",
+		  "electrons": [
+			2,
+			8,
+			18,
+			18,
+			7
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/xenon.jpg",
+		  "marker": "g8",
+		  "group": "Element Noble p",
+		  "position": 17,
+		  "name": "Xenon",
+		  "number": 54,
+		  "small": "Xe",
+		  "molar": 131.293,
+		  "electronConfiguration":"[Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>6</sup>",
+		  "meltingPoint":"-112",
+		  "boilingPoint":"-108",
+		  "density":"5.9",
+		  "earthCrust":"",
+		  "discovery":"1898",
+		  "ionizationEnergy":"12.1298",
+		  "electrons": [
+			2,
+			8,
+			18,
+			18,
+			8
+		  ]
+		}
+	  ]
+	},
+	{
+	  "wiki": "http://en.wikipedia.org/wiki/Period%206%20element",
+	  "elements": [
+		{
+		  "image": "http://images-of-elements.com/caesium.jpg",
+		  "marker": "g1",
+		  "group": "Element Alkali s",
+		  "position": 0,
+		  "name": "Caesium",
+		  "number": 55,
+		  "small": "Cs",
+		  "molar": 132.90546,
+		  "electronConfiguration":"[Xe] 6s<sup>1</sup>",
+		  "meltingPoint":"29",
+		  "boilingPoint":"678",
+		  "density":"1.87",
+		  "earthCrust":"",
+		  "discovery":"1860",
+		  "ionizationEnergy":"3.8939",
+		  "electrons": [
+			2,
+			8,
+			18,
+			18,
+			8,
+			1
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/barium.jpg",
+		  "marker": "g2",
+		  "group": "Element Alkaline s",
+		  "position": 1,
+		  "name": "Barium",
+		  "number": 56,
+		  "small": "Ba",
+		  "molar": 137.327,
+		  "electronConfiguration":"[Xe] 6s<sup>2<sup>",
+		  "meltingPoint":"725",
+		  "boilingPoint":"1140",
+		  "density":"3.59",
+		  "earthCrust":"0.05",
+		  "discovery":"1808",
+		  "ionizationEnergy":"5.2117",
+		  "electrons": [
+			2,
+			8,
+			18,
+			18,
+			8,
+			2
+		  ]
+		},
+		{
+		  "image": "",
+		  "marker": "g3",
+		  "group": "Lanthanoid InnerBorder BlueLeft BlueTop BlueRight",
+		  "position": 2,
+		  "name": "",
+		  "number": -1,
+		  "small": "57-71"
+		},
+		{
+		  "image": "http://images-of-elements.com/hafnium.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 3,
+		  "name": "Hafnium",
+		  "number": 72,
+		  "small": "Hf",
+		  "molar": 178.49,
+		  "electronConfiguration":"[Xe] 4f<sup>14<sup> 5d<sup>2<sup> 6s<sup>2<sup>",
+		  "meltingPoint":"2150",
+		  "boilingPoint":"5400",
+		  "density":"13.31",
+		  "earthCrust":"",
+		  "discovery":"1923",
+		  "ionizationEnergy":"6.8251",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			10,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/tantalum.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 4,
+		  "name": "Tantalum",
+		  "number": 73,
+		  "small": "Ta",
+		  "molar": 180.94788,
+		  "electronConfiguration":"[Xe] 4f<sup>14</sup> 5d<sup>3</sup> 6s<sup>2</sup>",
+		  "meltingPoint":"2996",
+		  "boilingPoint":"5425",
+		  "density":"16.65",
+		  "earthCrust":"",
+		  "discovery":"1802",
+		  "ionizationEnergy":"7.5496",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			11,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/tungsten.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 5,
+		  "name": "Tungsten",
+		  "number": 74,
+		  "small": "W",
+		  "molar": 183.84,
+		  "electronConfiguration":"[Xe] 4f<sup>14</sup> 5d<sup>4</sup> 6s<sup>2</sup>",
+		  "meltingPoint":"3410",
+		  "boilingPoint":"5660",
+		  "density":"19.35",
+		  "earthCrust":"",
+		  "discovery":"1783",
+		  "ionizationEnergy":"7.864",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			12,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/rhenium.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 6,
+		  "name": "Rhenium",
+		  "number": 75,
+		  "small": "Re",
+		  "molar": 186.207,
+		  "electronConfiguration":"[Xe] 4f<sup>14</sup> 5d<sup>5</sup> 6s<sup>2</sup>",
+		  "meltingPoint":"3180",
+		  "boilingPoint":"5627",
+		  "density":"21.04",
+		  "earthCrust":"",
+		  "discovery":"1925",
+		  "ionizationEnergy":"7.8335",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			13,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/osmium.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 7,
+		  "name": "Osmium",
+		  "number": 76,
+		  "small": "Os",
+		  "molar": 190.23,
+		  "electronConfiguration":"[Xe] 4f<sup>14</sup> 5d<sup>6</sup> 6s<sup>2</sup>",
+		  "meltingPoint":"3045",
+		  "boilingPoint":"5027",
+		  "density":"22.6",
+		  "earthCrust":"",
+		  "discovery":"1803",
+		  "ionizationEnergy":"8.4382",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			14,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/iridium.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 8,
+		  "name": "Iridium",
+		  "number": 77,
+		  "small": "Ir",
+		  "molar": 192.217,
+		  "electronConfiguration":"[Xe] 4f<sup>14</sup> 5d<sup>7</sup> 6s<sup>2</sup>",
+		  "meltingPoint":"2410",
+		  "boilingPoint":"4527",
+		  "density":"22.4",
+		  "earthCrust":"",
+		  "discovery":"1803",
+		  "ionizationEnergy":"8.967",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			15,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/platinum.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 9,
+		  "name": "Platinum",
+		  "number": 78,
+		  "small": "Pt",
+		  "molar": 195.084,
+		  "electronConfiguration":"[Xe] 4f<sup>14</sup> 5d<sup>9</sup> 6s<sup>1</sup>",
+		  "meltingPoint":"1772",
+		  "boilingPoint":"3827",
+		  "density":"21.45",
+		  "earthCrust":"",
+		  "discovery":"1735",
+		  "ionizationEnergy":"8.9587",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			17,
+			1
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/gold.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 10,
+		  "name": "Gold",
+		  "number": 79,
+		  "small": "Au",
+		  "molar": 196.96657,
+		  "electronConfiguration":"[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>1</sup>",
+		  "meltingPoint":"1064",
+		  "boilingPoint":"2807",
+		  "density":"19.32",
+		  "earthCrust":"",
+		  "discovery":"ancient",
+		  "ionizationEnergy":"9.2255",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			18,
+			1
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/mercury.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 11,
+		  "name": "Mercury",
+		  "number": 80,
+		  "small": "Hg",
+		  "molar": 200.59,
+		  "electronConfiguration":"[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup>",
+		  "meltingPoint":"-39",
+		  "boilingPoint":"357",
+		  "density":"13.55",
+		  "earthCrust":"",
+		  "discovery":"ancient",
+		  "ionizationEnergy":"10.4375",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			18,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/thallium.jpg",
+		  "marker": "g5",
+		  "group": "Element Poor Boron p",
+		  "position": 12,
+		  "name": "Thallium",
+		  "number": 81,
+		  "small": "Tl",
+		  "molar": 204.3833,
+		  "electronConfiguration":"[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>1</sup>",
+		  "meltingPoint":"303",
+		  "boilingPoint":"1457",
+		  "density":"11.85",
+		  "earthCrust":"",
+		  "discovery":"1861",
+		  "ionizationEnergy":"6.1082",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			18,
+			3
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/lead.jpg",
+		  "marker": "g5",
+		  "group": "Element Poor Carbon p",
+		  "position": 13,
+		  "name": "Lead",
+		  "number": 82,
+		  "small": "Pb",
+		  "molar": 207.2,
+		  "electronConfiguration":"[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>2</sup>",
+		  "meltingPoint":"327",
+		  "boilingPoint":"1740",
+		  "density":"11.35",
+		  "earthCrust":"",
+		  "discovery":"ancient",
+		  "electronConfiguration":"[Xe] 4f14 5d10 6s2 6p2",
+		  "ionizationEnergy":"7.4167",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			18,
+			4
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/bismuth.jpg",
+		  "marker": "g5",
+		  "group": "Element Poor Pnictogen p",
+		  "position": 14,
+		  "name": "Bismuth",
+		  "number": 83,
+		  "small": "Bi",
+		  "molar": 208.9804,
+		  "electronConfiguration":"[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>3</sup>",
+		  "meltingPoint":"271",
+		  "boilingPoint":"1560",
+		  "density":"9.75",
+		  "earthCrust":"",
+		  "discovery":"ancient",
+		  "ionizationEnergy":"7.2856",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			18,
+			5
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/polonium.jpg",
+		  "marker": "g4",
+		  "group": "Element Metalloid Chalcogen p",
+		  "position": 15,
+		  "name": "Polonium",
+		  "number": 84,
+		  "small": "Po",
+		  "molar": 209,
+		  "electronConfiguration":"[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>4</sup>",
+		  "meltingPoint":"254",
+		  "boilingPoint":"962",
+		  "density":"9.3",
+		  "earthCrust":"",
+		  "discovery":"1898",
+		  "ionizationEnergy":"8.417",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			18,
+			6
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/astatine.jpg",
+		  "marker": "g7",
+		  "group": "Element Halogen p",
+		  "position": 16,
+		  "name": "Astatine",
+		  "number": 85,
+		  "small": "At",
+		  "molar": 210,
+		  "electronConfiguration":"[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>5</sup>",
+		  "meltingPoint":"302",
+		  "boilingPoint":"337",
+		  "density":"",
+		  "earthCrust":"",
+		  "discovery":"1940",
+		  "ionizationEnergy":"9.3",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			18,
+			7
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/radon.jpg",
+		  "marker": "g8",
+		  "group": "Element Noble p",
+		  "position": 17,
+		  "name": "Radon",
+		  "number": 86,
+		  "small": "Rn",
+		  "molar": 222,
+		  "electronConfiguration":"[Xe] 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>6</sup>",
+		  "meltingPoint":"-71",
+		  "boilingPoint":"-62",
+		  "density":"9.73",
+		  "earthCrust":"",
+		  "discovery":"1900",
+		  "ionizationEnergy":"10.7485",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			18,
+			8
+		  ]
+		}
+	  ]
+	},
+	{
+	  "wiki": "http://en.wikipedia.org/wiki/Period%207%20element",
+	  "elements": [
+		{
+		  "image": "http://images-of-elements.com/francium.jpg",
+		  "marker": "g1",
+		  "group": "Element Alkali s",
+		  "position": 0,
+		  "name": "Francium",
+		  "number": 87,
+		  "small": "Fr",
+		  "molar": 223,
+		  "electronConfiguration":"[Rn] 7s<sup>1</sup>",
+		  "meltingPoint":"27",
+		  "boilingPoint":"677",
+		  "density":"",
+		  "earthCrust":"",
+		  "discovery":"1939",
+		  "electronConfiguration":"[Rn] 7s1",
+		  "ionizationEnergy":"4.0727",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			18,
+			8,
+			1
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/radium.jpg",
+		  "marker": "g2",
+		  "group": "Element Alkaline s",
+		  "position": 1,
+		  "name": "Radium",
+		  "number": 88,
+		  "small": "Ra",
+		  "molar": 226,
+		  "electronConfiguration":"[Rn] 7s<sup>2</sup>",
+		  "meltingPoint":"700",
+		  "boilingPoint":"1737",
+		  "density":"5.5",
+		  "earthCrust":"",
+		  "discovery":"1898",
+		  "ionizationEnergy":"5.2784",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			18,
+			8,
+			2
+		  ]
+		},
+		{
+		  "image": "",
+		  "marker": "g3",
+		  "group": "Actinoid InnerBorder BlueLeft BlueRight",
+		  "position": 2,
+		  "name": "",
+		  "number": -1,
+		  "small": "89-103"
+		},
+		{
+		  "image": "http://images-of-elements.com/s/rutherfordium.jpg",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 3,
+		  "name": "Rutherfordium",
+		  "number": 104,
+		  "small": "Rf",
+		  "molar": 267,
+		  "meltingPoint":"",
+		  "boilingPoint":"",
+		  "density":"",
+		  "earthCrust":"",
+		  "discovery":"1964",
+		  "electronConfiguration":"",
+		  "ionizationEnergy":"",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			32,
+			10,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/s/transactinoid.png",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 4,
+		  "name": "Dubnium",
+		  "number": 105,
+		  "small": "Db",
+		  "molar": 268,
+		  "meltingPoint":"",
+		  "boilingPoint":"",
+		  "density":"",
+		  "earthCrust":"",
+		  "discovery":"1967",
+		  "electronConfiguration":"",
+		  "ionizationEnergy":"",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			32,
+			11,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/s/transactinoid.png",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 5,
+		  "name": "Seaborgium",
+		  "number": 106,
+		  "small": "Sg",
+		  "molar": 271,
+		  "meltingPoint":"",
+		  "boilingPoint":"",
+		  "density":"",
+		  "earthCrust":"",
+		  "discovery":"1974",
+		  "electronConfiguration":"",
+		  "ionizationEnergy":"",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			32,
+			12,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/s/transactinoid.png",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 6,
+		  "name": "Bohrium",
+		  "number": 107,
+		  "small": "Bh",
+		  "molar": 272,
+		  "meltingPoint":"",
+		  "boilingPoint":"",
+		  "density":"",
+		  "earthCrust":"",
+		  "discovery":"1981",
+		  "electronConfiguration":"",
+		  "ionizationEnergy":"",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			32,
+			13,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/s/transactinoid.png",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 7,
+		  "name": "Hassium",
+		  "number": 108,
+		  "small": "Hs",
+		  "molar": 270,
+		  "meltingPoint":"",
+		  "boilingPoint":"",
+		  "density":"",
+		  "earthCrust":"",
+		  "discovery":"1984",
+		  "electronConfiguration":"",
+		  "ionizationEnergy":"",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			32,
+			14,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/s/transactinoid.png",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 8,
+		  "name": "Meitnerium",
+		  "number": 109,
+		  "small": "Mt",
+		  "molar": 276,
+		  "meltingPoint":"",
+		  "boilingPoint":"",
+		  "density":"",
+		  "earthCrust":"",
+		  "discovery":"1982",
+		  "electronConfiguration":"",
+		  "ionizationEnergy":"",
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			32,
+			15,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/s/transactinoid.png",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 9,
+		  "name": "Darmstadtium",
+		  "number": 110,
+		  "small": "Ds",
+		  "molar": 281,
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			32,
+			17,
+			1
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/s/transactinoid.png",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 10,
+		  "name": "Roentgenium",
+		  "number": 111,
+		  "small": "Rg",
+		  "molar": 280,
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			32,
+			18,
+			1
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/s/transactinoid.png",
+		  "marker": "g3",
+		  "group": "Element Transition d",
+		  "position": 11,
+		  "name": "Copernicium",
+		  "number": 112,
+		  "small": "Cn",
+		  "molar": 285,
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			32,
+			18,
+			2
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/s/transactinoid.png",
+		  "marker": "g5",
+		  "group": "Element Poor Boron p",
+		  "position": 12,
+		  "name": "Ununtrium",
+		  "number": 113,
+		  "small": "Uut",
+		  "molar": 284,
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			32,
+			18,
+			3
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/s/transactinoid.png",
+		  "marker": "g5",
+		  "group": "Element Poor Carbon p",
+		  "position": 13,
+		  "name": "Flerovium",
+		  "number": 114,
+		  "small": "Fl",
+		  "molar": 289,
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			32,
+			18,
+			4
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/s/transactinoid.png",
+		  "marker": "g5",
+		  "group": "Element Poor Pnictogen p",
+		  "position": 14,
+		  "name": "Ununpentium",
+		  "number": 115,
+		  "small": "Uup",
+		  "molar": 288,
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			32,
+			18,
+			5
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/s/transactinoid.png",
+		  "marker": "g5",
+		  "group": "Element Poor Chalcogen p",
+		  "position": 15,
+		  "name": "Livermorium",
+		  "number": 116,
+		  "small": "Lv",
+		  "molar": 293,
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			32,
+			18,
+			6
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/s/transactinoid.png",
+		  "marker": "g7",
+		  "group": "Element Halogen p",
+		  "position": 16,
+		  "name": "Ununseptium",
+		  "number": 117,
+		  "small": "Uus",
+		  "molar": 294,
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			32,
+			18,
+			7
+		  ]
+		},
+		{
+		  "image": "http://images-of-elements.com/s/transactinoid.png",
+		  "marker": "g8",
+		  "group": "Element Noble p",
+		  "position": 17,
+		  "name": "Ununoctium",
+		  "number": 118,
+		  "small": "Uuo",
+		  "molar": 294,
+		  "electrons": [
+			2,
+			8,
+			18,
+			32,
+			32,
+			18,
+			8
+		  ]
+		}
+	  ]
+	}
+  ],
+  "lanthanoids": [
+	{
+	  "image": "http://images-of-elements.com/lanthanum.jpg",
+	  "marker": "g9",
+	  "group": "Element Lanthanoid f",
+	  "position": 2,
+	  "name": "Lanthanum",
+	  "number": 57,
+	  "small": "La",
+	  "molar": 138.90547,
+	  "electronConfiguration":"[Xe] 5d<sup>1</sup> 6s<sup>2</sup>",
+	  "meltingPoint":"920",
+	  "boilingPoint":"3469",
+	  "density":"6.15",
+	  "earthCrust":"",
+	  "discovery":"1839",
+	  "ionizationEnergy":"5.5769",
+	  "electrons": [
+		2,
+		8,
+		18,
+		18,
+		9,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/cerium.jpg",
+	  "marker": "g9",
+	  "group": "Element Lanthanoid f",
+	  "position": 3,
+	  "name": "Cerium",
+	  "number": 58,
+	  "small": "Ce",
+	  "molar": 140.116,
+	  "electronConfiguration":"[Xe] 4f<sup>1</sup> 5d<sup>1</sup> 6s<sup>2</sup>",
+	  "meltingPoint":"795",
+	  "boilingPoint":"3257",
+	  "density":"6.77",
+	  "earthCrust":"",
+	  "discovery":"1803",
+	  "ionizationEnergy":"5.5387",
+	  "electrons": [
+		2,
+		8,
+		18,
+		19,
+		9,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/praseodymium.jpg",
+	  "marker": "g9",
+	  "group": "Element Lanthanoid f",
+	  "position": 4,
+	  "name": "Praseodymium",
+	  "number": 59,
+	  "small": "Pr",
+	  "molar": 140.90765,
+	  "electronConfiguration":"[Xe] 4f<sup>3</sup> 6s<sup>2</sup>",
+	  "meltingPoint":"935",
+	  "boilingPoint":"3127",
+	  "density":"6.77",
+	  "earthCrust":"",
+	  "discovery":"1885",
+	  "ionizationEnergy":"5.473",
+	  "electrons": [
+		2,
+		8,
+		18,
+		21,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/neodymium.jpg",
+	  "marker": "g9",
+	  "group": "Element Lanthanoid f",
+	  "position": 5,
+	  "name": "Neodymium",
+	  "number": 60,
+	  "small": "Nd",
+	  "molar": 144.242,
+	  "electronConfiguration":"[Xe] 4f<sup>4</sup> 6s<sup>2</sup>",
+	  "meltingPoint":"1010",
+	  "boilingPoint":"3127",
+	  "density":"7.01",
+	  "earthCrust":"",
+	  "discovery":"1885",
+	  "ionizationEnergy":"5.525",
+	  "electrons": [
+		2,
+		8,
+		18,
+		22,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/promethium.jpg",
+	  "marker": "g9",
+	  "group": "Element Lanthanoid f",
+	  "position": 6,
+	  "name": "Promethium",
+	  "number": 61,
+	  "small": "Pm",
+	  "molar": 145,
+	  "electronConfiguration":"[Xe] 4f<sup>5</sup> 6s<sup>2</sup>",
+	  "meltingPoint":"1100",
+	  "boilingPoint":"3000",
+	  "density":"7.3",
+	  "earthCrust":"",
+	  "discovery":"1945",
+	  "ionizationEnergy":"5.582",
+	  "electrons": [
+		2,
+		8,
+		18,
+		23,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/samarium.jpg",
+	  "marker": "g9",
+	  "group": "Element Lanthanoid f",
+	  "position": 7,
+	  "name": "Samarium",
+	  "number": 62,
+	  "small": "Sm",
+	  "molar": 150.36,
+	  "electronConfiguration":"[Xe] 4f<sup>6</sup> 6s<sup>2</sup>",
+	  "meltingPoint":"1072",
+	  "boilingPoint":"1900",
+	  "density":"7.52",
+	  "earthCrust":"",
+	  "discovery":"1879",
+	  "ionizationEnergy":"5.6437",
+	  "electrons": [
+		2,
+		8,
+		18,
+		24,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/europium.jpg",
+	  "marker": "g9",
+	  "group": "Element Lanthanoid f",
+	  "position": 8,
+	  "name": "Europium",
+	  "number": 63,
+	  "small": "Eu",
+	  "molar": 151.964,
+	  "electronConfiguration":"[Xe] 4f<sup>7</sup> 6s<sup>2</sup>",
+	  "meltingPoint":"822",
+	  "boilingPoint":"1597",
+	  "density":"5.24",
+	  "earthCrust":"",
+	  "discovery":"1901",
+	  "ionizationEnergy":"5.6704",
+	  "electrons": [
+		2,
+		8,
+		18,
+		25,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/gadolinium.jpg",
+	  "marker": "g9",
+	  "group": "Element Lanthanoid f",
+	  "position": 9,
+	  "name": "Gadolinium",
+	  "number": 64,
+	  "small": "Gd",
+	  "molar": 157.25,
+	  "electronConfiguration":"[Xe] 4f<sup>7</sup> 5d<sup>1</sup> 6s<sup>2</sup>",
+	  "meltingPoint":"1311",
+	  "boilingPoint":"3233",
+	  "density":"7.9",
+	  "earthCrust":"",
+	  "discovery":"1880",
+	  "ionizationEnergy":"6.1501",
+	  "electrons": [
+		2,
+		8,
+		18,
+		25,
+		9,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/terbium.jpg",
+	  "marker": "g9",
+	  "group": "Element Lanthanoid f",
+	  "position": 10,
+	  "name": "Terbium",
+	  "number": 65,
+	  "small": "Tb",
+	  "molar": 158.92535,
+	  "electronConfiguration":"[Xe] 4f<sup>9</sup> 6s<sup>2</sup>",
+	  "meltingPoint":"1360",
+	  "boilingPoint":"3041",
+	  "density":"8.23",
+	  "earthCrust":"",
+	  "discovery":"1843",
+	  "ionizationEnergy":"5.8638",
+	  "electrons": [
+		2,
+		8,
+		18,
+		27,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/dysprosium.jpg",
+	  "marker": "g9",
+	  "group": "Element Lanthanoid f",
+	  "position": 11,
+	  "name": "Dysprosium",
+	  "number": 66,
+	  "small": "Dy",
+	  "molar": 162.5,
+	  "electronConfiguration":"[Xe] 4f<sup>10</sup> 6s<sup>2</sup>",
+	  "meltingPoint":"1412",
+	  "boilingPoint":"2562",
+	  "density":"8.55",
+	  "earthCrust":"",
+	  "discovery":"1886",
+	  "ionizationEnergy":"5.9389",
+	  "electrons": [
+		2,
+		8,
+		18,
+		28,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/holmium.jpg",
+	  "marker": "g9",
+	  "group": "Element Lanthanoid f",
+	  "position": 12,
+	  "name": "Holmium",
+	  "number": 67,
+	  "small": "Ho",
+	  "molar": 164.93031,
+	  "electronConfiguration":"[Xe] 4f<sup>11</sup> 6s<sup>2</sup>",
+	  "meltingPoint":"1470",
+	  "boilingPoint":"2720",
+	  "density":"8.8",
+	  "earthCrust":"",
+	  "discovery":"1867",
+	  "ionizationEnergy":"6.0215",
+	  "electrons": [
+		2,
+		8,
+		18,
+		29,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/erbium.jpg",
+	  "marker": "g9",
+	  "group": "Element Lanthanoid f",
+	  "position": 13,
+	  "name": "Erbium",
+	  "number": 68,
+	  "small": "Er",
+	  "molar": 167.259,
+	  "electronConfiguration":"[Xe] 4f<sup>12</sup> 6s<sup>2</sup>",
+	  "meltingPoint":"1522",
+	  "boilingPoint":"2510",
+	  "density":"9.07",
+	  "earthCrust":"",
+	  "discovery":"1842",
+	  "ionizationEnergy":"6.1077",
+	  "electrons": [
+		2,
+		8,
+		18,
+		30,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/thulium.jpg",
+	  "marker": "g9",
+	  "group": "Element Lanthanoid f",
+	  "position": 14,
+	  "name": "Thulium",
+	  "number": 69,
+	  "small": "Tm",
+	  "molar": 168.9342,
+	  "electronConfiguration":"[Xe] 4f<sup>13</sup> 6s<sup>2</sup>",
+	  "meltingPoint":"1545",
+	  "boilingPoint":"1727",
+	  "density":"9.32",
+	  "earthCrust":"",
+	  "discovery":"1879",
+	  "ionizationEnergy":"6.1843",
+	  "electrons": [
+		2,
+		8,
+		18,
+		31,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/ytterbium.jpg",
+	  "marker": "g9",
+	  "group": "Element Lanthanoid f",
+	  "position": 15,
+	  "name": "Ytterbium",
+	  "number": 70,
+	  "small": "Yb",
+	  "molar": 173.054,
+	  "electronConfiguration":"[Xe] 4f<sup>14</sup> 6s<sup>2</sup>",
+	  "meltingPoint":"824",
+	  "boilingPoint":"1466",
+	  "density":"6.9",
+	  "earthCrust":"",
+	  "discovery":"1878",
+	  "electronConfiguration":"[Xe] 4f14 6s2",
+	  "ionizationEnergy":"6.2542",
+	  "electrons": [
+		2,
+		8,
+		18,
+		32,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/lutetium.jpg",
+	  "marker": "g9",
+	  "group": "Element Lanthanoid d",
+	  "position": 16,
+	  "name": "Lutetium",
+	  "number": 71,
+	  "small": "Lu",
+	  "molar": 174.9668,
+	  "electronConfiguration":"[Xe] 4f<sup>14</sup> 5d<sup>1</sup> 6s<sup>2</sup>",
+	  "meltingPoint":"1656",
+	  "boilingPoint":"3315",
+	  "density":"9.84",
+	  "earthCrust":"",
+	  "discovery":"1907",
+	  "ionizationEnergy":"5.4259",
+	  "electrons": [
+		2,
+		8,
+		18,
+		32,
+		9,
+		2
+	  ]
+	}
+  ],
+  "actinoids": [
+	{
+	  "image": "http://images-of-elements.com/actinium.jpg",
+	  "marker": "g10",
+	  "group": "Element Actinoid f",
+	  "position": 2,
+	  "name": "Actinium",
+	  "number": 89,
+	  "small": "Ac",
+	  "molar": 227,
+	  "electronConfiguration":"[Rn] 6d<sup>1</sup> 7s<sup>2</sup>",
+	  "meltingPoint":"1050",
+	  "boilingPoint":"3200",
+	  "density":"10.07",
+	  "earthCrust":"",
+	  "discovery":"1899",
+	  "ionizationEnergy":"5.17",
+	  "electrons": [
+		2,
+		8,
+		18,
+		32,
+		18,
+		9,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/s/thorium.jpg",
+	  "marker": "g10",
+	  "group": "Element Actinoid f",
+	  "position": 3,
+	  "name": "Thorium",
+	  "number": 90,
+	  "small": "Th",
+	  "molar": 232.03806,
+	  "electronConfiguration":"[Rn] 6d<sup>2</sup> 7s<sup>2</sup>",
+	  "meltingPoint":"1750",
+	  "boilingPoint":"4790",
+	  "density":"11.72",
+	  "earthCrust":"",
+	  "discovery":"1829",
+	  "ionizationEnergy":"6.3067",
+	  "electrons": [
+		2,
+		8,
+		18,
+		32,
+		18,
+		10,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/protactinium.jpg",
+	  "marker": "g10",
+	  "group": "Element Actinoid f",
+	  "position": 4,
+	  "name": "Protactinium",
+	  "number": 91,
+	  "small": "Pa",
+	  "molar": 231.03587,
+	  "electronConfiguration":"[Rn] 5f<sup>2</sup> 6d<sup>1</sup> 7s<sup>2</sup>",
+	  "meltingPoint":"1568",
+	  "boilingPoint":"",
+	  "density":"15.4",
+	  "earthCrust":"",
+	  "discovery":"1913",
+	  "ionizationEnergy":"5.89",
+	  "electrons": [
+		2,
+		8,
+		18,
+		32,
+		20,
+		9,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/s/uranium.jpg",
+	  "marker": "g10",
+	  "group": "Element Actinoid f",
+	  "position": 5,
+	  "name": "Uranium",
+	  "number": 92,
+	  "small": "U",
+	  "molar": 238.02892,
+	  "electronConfiguration":"[Rn] 5f<sup>3</sup> 6d<sup>1</sup> 7s<sup>2</sup>",
+	  "meltingPoint":"1132",
+	  "boilingPoint":"3818",
+	  "density":"18.95",
+	  "earthCrust":"",
+	  "discovery":"1789",
+	  "ionizationEnergy":"6.1941",
+	  "electrons": [
+		2,
+		8,
+		18,
+		32,
+		21,
+		9,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/s/neptunium.jpg",
+	  "marker": "g10",
+	  "group": "Element Actinoid f",
+	  "position": 6,
+	  "name": "Neptunium",
+	  "number": 93,
+	  "small": "Np",
+	  "molar": 237,
+	  "electronConfiguration":"[Rn] 5f<sup>4</sup> 6d<sup>1</sup> 7s<sup>2</sup>",
+	  "meltingPoint":"640",
+	  "boilingPoint":"3902",
+	  "density":"20.2",
+	  "earthCrust":"",
+	  "discovery":"1940",
+	  "ionizationEnergy":"6.2657",
+	  "electrons": [
+		2,
+		8,
+		18,
+		32,
+		22,
+		9,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/s/plutonium.jpg",
+	  "marker": "g10",
+	  "group": "Element Actinoid f",
+	  "position": 7,
+	  "name": "Plutonium",
+	  "number": 94,
+	  "small": "Pu",
+	  "molar": 244,
+	  "electronConfiguration":"[Rn] 5f<sup>6</sup> 7s<sup>2</sup>",
+	  "meltingPoint":"640",
+	  "boilingPoint":"3235",
+	  "density":"19.84",
+	  "earthCrust":"",
+	  "discovery":"1940",
+	  "ionizationEnergy":"6.0262",
+	  "electrons": [
+		2,
+		8,
+		18,
+		32,
+		24,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/s/americium.jpg",
+	  "marker": "g10",
+	  "group": "Element Actinoid f",
+	  "position": 8,
+	  "name": "Americium",
+	  "number": 95,
+	  "small": "Am",
+	  "molar": 243,
+	  "electronConfiguration":"[Rn] 5f<sup>7</sup> 7s<sup>2</sup>",
+	  "meltingPoint":"994",
+	  "boilingPoint":"2607",
+	  "density":"13.67",
+	  "earthCrust":"",
+	  "discovery":"1944",
+	  "ionizationEnergy":"5.9738",
+	  "electrons": [
+		2,
+		8,
+		18,
+		32,
+		25,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/curium.jpg",
+	  "marker": "g10",
+	  "group": "Element Actinoid f",
+	  "position": 9,
+	  "name": "Curium",
+	  "number": 96,
+	  "small": "Cm",
+	  "molar": 247,
+	  "electronConfiguration":"[Rn] 5f<sup>7</sup> 6d<sup>1</sup> 7s<sup>2</sup>",
+	  "meltingPoint":"1340",
+	  "boilingPoint":"",
+	  "density":"13.5",
+	  "earthCrust":"",
+	  "discovery":"1944",
+	  "ionizationEnergy":"5.9915",
+	  "electrons": [
+		2,
+		8,
+		18,
+		32,
+		25,
+		9,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/berkelium.jpg",
+	  "marker": "g10",
+	  "group": "Element Actinoid f",
+	  "position": 10,
+	  "name": "Berkelium",
+	  "number": 97,
+	  "small": "Bk",
+	  "molar": 247,
+	  "electronConfiguration":"[Rn] 5f<sup>9</sup> 7s<sup>2</sup>",
+	  "meltingPoint":"986",
+	  "boilingPoint":"",
+	  "density":"14.78",
+	  "earthCrust":"",
+	  "discovery":"1949",
+	  "ionizationEnergy":"6.1979",
+	  "electrons": [
+		2,
+		8,
+		18,
+		32,
+		27,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/californium.jpg",
+	  "marker": "g10",
+	  "group": "Element Actinoid f",
+	  "position": 11,
+	  "name": "Californium",
+	  "number": 98,
+	  "small": "Cf",
+	  "molar": 251,
+	  "electronConfiguration":"[Rn] 5f<sup>10</sup> 7s<sup>2</sup>",
+	  "meltingPoint":"900",
+	  "boilingPoint":"",
+	  "density":"15.1",
+	  "earthCrust":"",
+	  "discovery":"1950",
+	  "ionizationEnergy":"6.2817",
+	  "electrons": [
+		2,
+		8,
+		18,
+		32,
+		28,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/s/einsteinium.jpg",
+	  "marker": "g10",
+	  "group": "Element Actinoid f",
+	  "position": 12,
+	  "name": "Einsteinium",
+	  "number": 99,
+	  "small": "Es",
+	  "molar": 252,
+	  "electronConfiguration":"[Rn] 5f<sup>11</sup> 7s<sup>2</sup>",
+	  "meltingPoint":"860",
+	  "boilingPoint":"",
+	  "density":"",
+	  "earthCrust":"",
+	  "discovery":"1952",
+	  "ionizationEnergy":"6.42",
+	  "electrons": [
+		2,
+		8,
+		18,
+		32,
+		29,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/s/fermium.jpg",
+	  "marker": "g10",
+	  "group": "Element Actinoid f",
+	  "position": 13,
+	  "name": "Fermium",
+	  "number": 100,
+	  "small": "Fm",
+	  "molar": 257,
+	  "electronConfiguration":"[Rn] 5f<sup>12</sup> 7s<sup>2</sup>",
+	  "meltingPoint":"1527",
+	  "boilingPoint":"",
+	  "density":"",
+	  "earthCrust":"",
+	  "discovery":"1952",
+	  "ionizationEnergy":"6.5",
+	  "electrons": [
+		2,
+		8,
+		18,
+		32,
+		30,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/s/mendelevium.jpg",
+	  "marker": "g10",
+	  "group": "Element Actinoid f",
+	  "position": 14,
+	  "name": "Mendelevium",
+	  "number": 101,
+	  "small": "Md",
+	  "molar": 258,
+	  "electronConfiguration":"[Rn] 5f<sup>13</sup> 7s<sup>2</sup>",
+	  "meltingPoint":"",
+	  "boilingPoint":"",
+	  "density":"",
+	  "earthCrust":"",
+	  "discovery":"1955",
+	  "ionizationEnergy":"6.58",
+	  "electrons": [
+		2,
+		8,
+		18,
+		32,
+		31,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/nobelium.jpg",
+	  "marker": "g10",
+	  "group": "Element Actinoid f",
+	  "position": 15,
+	  "name": "Nobelium",
+	  "number": 102,
+	  "small": "No",
+	  "molar": 259,
+	  "electronConfiguration":"[Rn] 5f<sup>14</sup> 7s<sup>2</sup>",
+	  "meltingPoint":"827",
+	  "boilingPoint":"",
+	  "density":"",
+	  "earthCrust":"",
+	  "discovery":"1958",
+	  "ionizationEnergy":"6.65",
+	  "electrons": [
+		2,
+		8,
+		18,
+		32,
+		32,
+		8,
+		2
+	  ]
+	},
+	{
+	  "image": "http://images-of-elements.com/lawrencium.jpg",
+	  "marker": "g10",
+	  "group": "Element Actinoid d",
+	  "position": 16,
+	  "name": "Lawrencium",
+	  "number": 103,
+	  "small": "Lr",
+	  "molar": 262,
+	  "electronConfiguration":"[Rn] 5f<sup>14</sup> 7s<sup>2</sup>",
+	  "meltingPoint":"1627",
+	  "boilingPoint":"",
+	  "density":"",
+	  "earthCrust":"",
+	  "discovery":"1961",
+	  "ionizationEnergy":"4.9",
+	  "electrons": [
+		2,
+		8,
+		18,
+		32,
+		32,
+		8,
+		3
+	  ]
+	}
+  ]
 }
